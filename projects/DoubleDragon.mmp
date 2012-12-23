@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE multimedia-project>
-<multimedia-project version="1.0" creator="Linux MultiMedia Studio (LMMS)" creatorversion="0.4.10" type="song">
+<multimedia-project version="1.0" creator="Linux MultiMedia Studio (LMMS)" creatorversion="0.4.13" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="150" masterpitch="0"/>
   <song>
-    <trackcontainer width="1454" x="15" y="7" maximized="0" height="463" visible="1" type="song" minimized="0">
-      <track muted="0" type="1" name="Hi-hat">
+    <trackcontainer width="1454" x="11" y="29" maximized="0" height="583" visible="1" type="song" minimized="0">
+      <track muted="0" type="1" name="Opening drum fill">
         <bbtrack>
-          <trackcontainer width="695" x="872" y="486" maximized="0" height="342" visible="0" type="bbtrackcontainer" minimized="0">
+          <trackcontainer width="695" x="469" y="298" maximized="0" height="342" visible="1" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
@@ -23,20 +23,32 @@
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="0" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="192" len="192" frozen="0">
-                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
-              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="384" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="576" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
               </pattern>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="576" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="768" len="192" frozen="0">
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="768" len="192" frozen="0"/>
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="960" len="384" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="216" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="288" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="312" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1152" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1344" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="72" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="960" len="384" frozen="0">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1536" len="384" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -45,15 +57,7 @@
                 <note pan="0" key="57" vol="100" pos="288" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="312" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1152" len="384" frozen="0">
-                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="216" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="288" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="312" len="-192"/>
-              </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1344" len="384" frozen="0">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1728" len="384" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="72" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -78,23 +82,37 @@
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="0" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="192" len="192" frozen="0">
-                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
-              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="384" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
               </pattern>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="576" len="192" frozen="0">
-                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
               </pattern>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="768" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="960" len="384" frozen="0">
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="240" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="336" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="360" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1152" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1344" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="156" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="180" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="960" len="384" frozen="0">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1536" len="384" frozen="0">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
@@ -105,14 +123,7 @@
                 <note pan="0" key="57" vol="100" pos="348" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="360" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1152" len="384" frozen="0">
-                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="240" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="336" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="360" len="-192"/>
-              </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1344" len="384" frozen="0">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1728" len="384" frozen="0">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="216" len="-192"/>
@@ -141,17 +152,22 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="0" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="0" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+              </pattern>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="384" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="576" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="768" len="192" frozen="0">
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="768" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="960" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="1152" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="1344" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="12" len="-192"/>
               </pattern>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="960" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="1152" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="1344" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="1536" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom1.wav" pos="1728" len="192" frozen="0"/>
             </track>
             <track muted="0" type="0" name="Yamaha-RX15-Tom2.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="100">
@@ -168,16 +184,20 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="0" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="0" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+              </pattern>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="384" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="576" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="768" len="192" frozen="0">
-                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
-              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="768" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="960" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="1152" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="1344" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="1344" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="1536" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom2.wav" pos="1728" len="192" frozen="0"/>
             </track>
             <track muted="0" type="0" name="Yamaha-RX15-Tom3.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="100">
@@ -194,16 +214,20 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="0" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="0" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="384" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="576" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="768" len="192" frozen="0">
-                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
-              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="768" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="960" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="1152" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="1344" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="1344" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="1536" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Tom3.wav" pos="1728" len="192" frozen="0"/>
             </track>
             <track muted="0" type="0" name="Yamaha-RX15-Crash-Cymbal.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="100">
@@ -228,6 +252,8 @@
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Crash-Cymbal.wav" pos="960" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Crash-Cymbal.wav" pos="1152" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Crash-Cymbal.wav" pos="1344" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Crash-Cymbal.wav" pos="1536" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Crash-Cymbal.wav" pos="1728" len="192" frozen="0"/>
             </track>
             <track muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="38">
@@ -244,7 +270,8 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="0" len="192" frozen="0">
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="0" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="192" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="24" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
@@ -254,43 +281,63 @@
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="168" len="-192"/>
               </pattern>
-              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="384" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="576" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="768" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="960" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="1152" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="1344" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="1536" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Closed-Hi-Hat.wav" pos="1728" len="192" frozen="0"/>
             </track>
           </trackcontainer>
         </bbtrack>
-        <bbtco muted="0" name="" pos="192" color="4282417407" len="1344"/>
+        <bbtco muted="0" name="" pos="0" color="4282417407" len="192"/>
+      </track>
+      <track muted="0" type="1" name="Hi-hat">
+        <bbtrack/>
         <bbtco muted="0" name="" pos="1728" color="4282417407" len="1344"/>
         <bbtco muted="0" name="" pos="3264" color="4282417407" len="1344"/>
+        <bbtco muted="0" name="" pos="4800" color="4282417407" len="1344"/>
+        <bbtco muted="0" name="" pos="192" color="4282417407" len="1344"/>
       </track>
       <track muted="0" type="1" name="Beat 1">
         <bbtrack/>
+        <bbtco muted="0" name="" pos="1728" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2112" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2496" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2880" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3264" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3648" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="4032" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="192" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="576" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="960" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="1344" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="1728" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2112" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2496" color="4282417407" len="192"/>
       </track>
       <track muted="0" type="1" name="Beat 2">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="384" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="768" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="1152" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="1920" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="2304" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="2688" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3456" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3840" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="4224" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="384" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="768" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="1152" color="4282417407" len="192"/>
       </track>
       <track muted="0" type="1" name="Beat 2 - extra snare hit">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="768" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="2304" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3840" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="768" color="4282417407" len="192"/>
+      </track>
+      <track muted="0" type="1" name="Beat 3">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="4800" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="5184" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="5568" color="4282417407" len="384"/>
       </track>
       <track muted="0" type="1" name="Drum fill 1">
         <bbtrack/>
@@ -298,17 +345,15 @@
       </track>
       <track muted="0" type="1" name="Drum fill 2">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="2880" color="4282417407" len="384"/>
-      </track>
-      <track muted="0" type="1" name="Beat 3">
-        <bbtrack/>
-        <bbtco muted="0" name="" pos="3264" color="4282417407" len="384"/>
-        <bbtco muted="0" name="" pos="3648" color="4282417407" len="384"/>
-        <bbtco muted="0" name="" pos="4032" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="3072" color="4282417407" len="192"/>
       </track>
       <track muted="0" type="1" name="Drum fill 3">
         <bbtrack/>
         <bbtco muted="0" name="" pos="4416" color="4282417407" len="384"/>
+      </track>
+      <track muted="0" type="1" name="Drum fill 3">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="5952" color="4282417407" len="384"/>
       </track>
       <track muted="0" type="0" name="Square">
         <instrumenttrack pan="0" fxch="2" pitch="0" basenote="69" vol="23">
@@ -325,7 +370,7 @@
           <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
           <fxchain numofeffects="0" enabled="0"/>
         </instrumenttrack>
-        <pattern steps="16" muted="0" type="1" name="Square" pos="0" len="1728" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Square" pos="1536" len="1728" frozen="0">
           <note pan="0" key="57" vol="100" pos="144" len="24"/>
           <note pan="0" key="60" vol="100" pos="168" len="24"/>
           <note pan="0" key="62" vol="100" pos="192" len="96"/>
@@ -357,7 +402,7 @@
           <note pan="0" key="57" vol="100" pos="1680" len="24"/>
           <note pan="0" key="60" vol="100" pos="1704" len="24"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Square" pos="1728" len="1536" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Square" pos="3264" len="1536" frozen="0">
           <note pan="0" key="62" vol="100" pos="0" len="72"/>
           <note pan="0" key="65" vol="100" pos="120" len="24"/>
           <note pan="0" key="64" vol="100" pos="144" len="36"/>
@@ -388,7 +433,7 @@
           <note pan="0" key="69" vol="100" pos="1296" len="24"/>
           <note pan="0" key="72" vol="100" pos="1320" len="168"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Square" pos="3264" len="1536" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Square" pos="4800" len="1536" frozen="0">
           <note pan="0" key="62" vol="100" pos="0" len="72"/>
           <note pan="0" key="64" vol="100" pos="72" len="72"/>
           <note pan="0" key="67" vol="100" pos="144" len="24"/>
@@ -421,7 +466,7 @@
           <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
           <fxchain numofeffects="0" enabled="0"/>
         </instrumenttrack>
-        <pattern steps="16" muted="0" type="1" name="Bass" pos="192" len="1536" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Bass" pos="1728" len="1536" frozen="0">
           <note pan="0" key="59" vol="100" pos="0" len="24"/>
           <note pan="0" key="59" vol="100" pos="24" len="24"/>
           <note pan="0" key="59" vol="100" pos="48" len="24"/>
@@ -483,7 +528,7 @@
           <note pan="0" key="52" vol="100" pos="1392" len="24"/>
           <note pan="0" key="52" vol="100" pos="1416" len="24"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Bass" pos="1728" len="1536" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Bass" pos="3264" len="1536" frozen="0">
           <note pan="0" key="59" vol="100" pos="0" len="24"/>
           <note pan="0" key="59" vol="100" pos="24" len="24"/>
           <note pan="0" key="59" vol="100" pos="48" len="24"/>
@@ -548,7 +593,7 @@
           <note pan="0" key="57" vol="100" pos="1488" len="24"/>
           <note pan="0" key="57" vol="100" pos="1512" len="24"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Bass" pos="3264" len="1536" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Bass" pos="4800" len="1536" frozen="0">
           <note pan="0" key="52" vol="100" pos="0" len="72"/>
           <note pan="0" key="54" vol="100" pos="72" len="96"/>
           <note pan="0" key="55" vol="100" pos="168" len="48"/>
@@ -591,6 +636,68 @@
           <note pan="0" key="57" vol="100" pos="1392" len="24"/>
           <note pan="0" key="57" vol="100" pos="1416" len="24"/>
         </pattern>
+        <pattern steps="16" muted="0" type="1" name="Bass" pos="192" len="1536" frozen="0">
+          <note pan="0" key="52" vol="100" pos="0" len="24"/>
+          <note pan="0" key="52" vol="100" pos="24" len="24"/>
+          <note pan="0" key="52" vol="100" pos="48" len="24"/>
+          <note pan="0" key="52" vol="100" pos="72" len="24"/>
+          <note pan="0" key="52" vol="100" pos="96" len="24"/>
+          <note pan="0" key="52" vol="100" pos="120" len="24"/>
+          <note pan="0" key="52" vol="100" pos="144" len="24"/>
+          <note pan="0" key="52" vol="100" pos="168" len="24"/>
+          <note pan="0" key="52" vol="100" pos="192" len="24"/>
+          <note pan="0" key="52" vol="100" pos="216" len="24"/>
+          <note pan="0" key="52" vol="100" pos="240" len="24"/>
+          <note pan="0" key="52" vol="100" pos="264" len="24"/>
+          <note pan="0" key="52" vol="100" pos="288" len="24"/>
+          <note pan="0" key="52" vol="100" pos="312" len="24"/>
+          <note pan="0" key="52" vol="100" pos="336" len="24"/>
+          <note pan="0" key="52" vol="100" pos="360" len="24"/>
+          <note pan="0" key="52" vol="100" pos="384" len="24"/>
+          <note pan="0" key="52" vol="100" pos="408" len="24"/>
+          <note pan="0" key="52" vol="100" pos="432" len="24"/>
+          <note pan="0" key="52" vol="100" pos="456" len="24"/>
+          <note pan="0" key="52" vol="100" pos="480" len="24"/>
+          <note pan="0" key="52" vol="100" pos="504" len="24"/>
+          <note pan="0" key="52" vol="100" pos="528" len="24"/>
+          <note pan="0" key="52" vol="100" pos="552" len="24"/>
+          <note pan="0" key="52" vol="100" pos="576" len="24"/>
+          <note pan="0" key="52" vol="100" pos="600" len="24"/>
+          <note pan="0" key="52" vol="100" pos="624" len="24"/>
+          <note pan="0" key="52" vol="100" pos="648" len="24"/>
+          <note pan="0" key="52" vol="100" pos="672" len="24"/>
+          <note pan="0" key="52" vol="100" pos="696" len="24"/>
+          <note pan="0" key="52" vol="100" pos="720" len="24"/>
+          <note pan="0" key="52" vol="100" pos="744" len="24"/>
+          <note pan="0" key="52" vol="100" pos="768" len="24"/>
+          <note pan="0" key="52" vol="100" pos="792" len="24"/>
+          <note pan="0" key="52" vol="100" pos="816" len="24"/>
+          <note pan="0" key="52" vol="100" pos="840" len="24"/>
+          <note pan="0" key="52" vol="100" pos="864" len="24"/>
+          <note pan="0" key="52" vol="100" pos="888" len="24"/>
+          <note pan="0" key="52" vol="100" pos="912" len="24"/>
+          <note pan="0" key="52" vol="100" pos="936" len="24"/>
+          <note pan="0" key="52" vol="100" pos="960" len="24"/>
+          <note pan="0" key="52" vol="100" pos="984" len="24"/>
+          <note pan="0" key="52" vol="100" pos="1008" len="24"/>
+          <note pan="0" key="52" vol="100" pos="1032" len="24"/>
+          <note pan="0" key="52" vol="100" pos="1056" len="24"/>
+          <note pan="0" key="52" vol="100" pos="1080" len="24"/>
+          <note pan="0" key="52" vol="100" pos="1104" len="24"/>
+          <note pan="0" key="52" vol="100" pos="1128" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1152" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1176" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1200" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1224" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1248" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1272" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1296" len="24"/>
+          <note pan="0" key="58" vol="100" pos="1320" len="24"/>
+          <note pan="0" key="58" vol="100" pos="1344" len="24"/>
+          <note pan="0" key="58" vol="100" pos="1368" len="24"/>
+          <note pan="0" key="58" vol="100" pos="1392" len="24"/>
+          <note pan="0" key="58" vol="100" pos="1416" len="24"/>
+        </pattern>
       </track>
     </trackcontainer>
     <track muted="0" type="6" name="Automation track">
@@ -611,7 +718,7 @@
         <time value="0" pos="0"/>
       </automationpattern>
     </track>
-    <fxmixer width="864" x="0" y="682" maximized="0" height="278" visible="1" minimized="0">
+    <fxmixer width="863" x="0" y="682" maximized="0" height="278" visible="1" minimized="0">
       <fxchannel num="0" muted="0" volume="0.59" name="Master">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
@@ -809,14 +916,14 @@
       </fxchannel>
     </fxmixer>
     <ControllerRackView width="258" x="881" y="310" maximized="0" height="172" visible="0" minimized="0"/>
-    <pianoroll width="1135" x="189" y="195" maximized="0" height="749" visible="0" minimized="0"/>
+    <pianoroll width="1135" x="73" y="24" maximized="0" height="749" visible="0" minimized="0"/>
     <automationeditor width="740" x="0" y="0" maximized="0" height="480" visible="0" minimized="0"/>
     <projectnotes width="400" x="700" y="10" maximized="0" height="300" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;">
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#e0e0e0;">Put down your project notes here.</span></p></body></html>]]></projectnotes>
-    <timeline lp1pos="4800" lp0pos="0" lpstate="1"/>
+    <timeline lp1pos="6336" lp0pos="0" lpstate="1"/>
     <controllers/>
   </song>
 </multimedia-project>
