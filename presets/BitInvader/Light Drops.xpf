@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE multimedia-project>
+<multimedia-project version="1.0" creator="Linux MultiMedia Studio (LMMS)" creatorversion="0.4.13" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings muted="0" type="0" name="Light Drops">
+    <instrumenttrack pan="0" fxch="0" pitch="0" basenote="57" vol="37.5">
+      <instrument name="bitinvader">
+        <bitinvader version="0.1" sampleLength="128" normalize="0" sampleShape="AAAAADD7SD02vcg9g0AWPsLFRz7Nz3g+MaCUPtR8rD4W78M+gOjaPupa8T49nAM/2jkOP8B/GD+aZyI/SusrP/MENT/6rj0/A+RFPwKfTT8y21Q/G5RbP5jFYT/Ya2c/XoNsPwgJcT8L+nQ/+FN4P78Uez+sOn0/bcR+Pw+xfz8AAIA/D7F/P23Efj+sOn0/vhR7P/hTeD8K+nQ/CAlxP16DbD/Ya2c/l8VhPxqUWz8w21Q/Ap9NPwTkRT/4rj0/8wQ1P0jrKz+ZZyI/vX8YP9k5Dj89nAM/5lrxPn/o2j4Q78M+0nysPjOglD7Fz3g+wcVHPnpAFj4wvcg9/fpIPS69u7Ms+0i9R73IvYVAFr7NxUe+0M94vjiglL7XfKy+Fe/DvoXo2r7rWvG+P5wDv9s5Dr/Afxi/m2civ0rrK7/1BDW/+q49vwPkRb8Dn02/NNtUvxmUW7+YxWG/2Wtnv2GDbL8ICXG/C/p0v/lTeL++FHu/rDp9v23Efr8PsX+/AACAvw+xf79txH6/rDp9v74Ue7/3U3i/Cfp0vwgJcb9dg2y/1Wtnv5jFYb8ZlFu/L9tUvwOfTb8D5EW/9649v+8ENb9K6yu/l2civ7x/GL/bOQ6/PJwDv+Na8b526Nq+Fe/Dvs98rL4ooJS+z894vrzFR750QBa+BL3IvSb7SL0=" interpolation="1"/>
+      </instrument>
+      <eldata fres="5" ftype="7" fcut="7000" fwet="0">
+        <elvol lspd_denominator="4" pdel="0" userwavefile="" dec="0.25" lamt="0" syncmode="0" latt="0" rel="0.1" sus="1" amt="1" x100="0" att="0.025" lpdel="0" hold="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+        <elcut lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="8" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.015" ctlenvamt="0" lspd_numerator="4"/>
+        <elres lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arptime="150" arprange="2" arptime_denominator="4" syncmode="5" arpmode="0" arp-enabled="0" arp="1" arptime_numerator="4" arpdir="3" arpgate="100"/>
+      <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
+      <fxchain numofeffects="1" enabled="1">
+        <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+          <ladspacontrols port02="0.50197" port03="0.749" port04="0.249875" port05="0.25" ports="4"/>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="Plate2x2" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</multimedia-project>
