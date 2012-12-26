@@ -9,10 +9,10 @@
     <masterpitch value="0" id="4663495"/>
   </head>
   <song>
-    <trackcontainer width="913" x="9" y="10" maximized="0" height="533" visible="1" type="song" minimized="0">
+    <trackcontainer width="1088" x="-86" y="50" maximized="0" height="606" visible="1" type="song" minimized="0">
       <track muted="0" type="1" name="Kick 2 4">
         <bbtrack>
-          <trackcontainer width="763" x="211" y="261" maximized="0" height="415" visible="0" type="bbtrackcontainer" minimized="0">
+          <trackcontainer width="763" x="2" y="282" maximized="0" height="415" visible="0" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="Classic-626_Kick_1.flac">
               <instrumenttrack pan="0" fxch="0" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
@@ -91,7 +91,7 @@
             <track muted="0" type="0" name="PowerStrings">
               <instrumenttrack pan="0" fxch="0" pitch="0" basenote="66" vol="11">
                 <instrument name="tripleoscillator">
-                  <tripleoscillator phoffset2="80" userwavefile0="" finer0="0" userwavefile1="" finer1="13" userwavefile2="samples/shapes/smooth_inv_saw.ogg" finer2="0" coarse0="0" coarse1="0" coarse2="12" finel0="0" finel1="-16" modalgo1="2" modalgo2="0" finel2="0" pan0="0" modalgo3="0" pan1="0" stphdetun0="121" pan2="0" stphdetun1="259" wavetype0="2" stphdetun2="92" wavetype1="2" wavetype2="3" vol0="100" vol1="100" phoffset0="0" phoffset1="266" vol2="42"/>
+                  <tripleoscillator phoffset2="80" userwavefile0="" finer0="0" userwavefile1="" finer1="13" userwavefile2="samples/shapes/smooth_inv_saw.ogg" finer2="0" coarse0="0" coarse1="0" coarse2="12" finel0="0" finel1="-16" modalgo1="2" modalgo2="0" finel2="0" pan0="0" modalgo3="0" pan1="0" stphdetun0="121" pan2="0" stphdetun1="259" wavetype0="2" stphdetun2="92" wavetype1="2" wavetype2="1" vol0="100" vol1="100" phoffset0="0" phoffset1="266" vol2="42"/>
                 </instrument>
                 <eldata fres="1.04" ftype="7" fcut="3224" fwet="1">
                   <elvol lspd_denominator="1" pdel="0" userwavefile="" dec="0.797" lamt="0" syncmode="0" latt="0" rel="0.219" sus="0" amt="1" x100="0" att="0" lpdel="0" hold="0" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="1"/>
@@ -2151,37 +2151,39 @@
           </trackcontainer>
         </bbtrack>
         <bbtco muted="0" name="" pos="0" color="4282417407" len="576"/>
-        <bbtco muted="0" name="" pos="3840" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="4608" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="7680" color="4282417407" len="384"/>
       </track>
       <track muted="0" type="1" name="Snare 2 4">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="960" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="1152" color="4282417407" len="192"/>
       </track>
       <track muted="0" type="1" name="Kick 4">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="4608" color="4282417407" len="384"/>
-        <bbtco muted="0" name="" pos="576" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="5376" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="576" color="4282417407" len="576"/>
       </track>
       <track muted="0" type="1" name="Kick 2 / Snare">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="1344" color="4282417407" len="960"/>
+        <bbtco muted="0" name="" pos="1152" color="4282417407" len="1152"/>
       </track>
       <track muted="0" type="1" name="Kick 4 / Snare">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="2304" color="4282417407" len="1536"/>
-        <bbtco muted="0" name="" pos="4992" color="4282417407" len="1152"/>
+        <bbtco muted="0" name="" pos="2304" color="4282417407" len="2304"/>
+        <bbtco muted="0" name="" pos="5760" color="4282417407" len="1920"/>
       </track>
       <track muted="0" type="1" name="Bassline">
         <bbtrack/>
         <bbtco muted="0" name="" pos="768" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="1536" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="0" color="4282417407" len="768"/>
-        <bbtco muted="0" name="" pos="2304" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="3072" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="3840" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="4608" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="5376" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="6144" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="6912" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="2304" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="7680" color="4282417407" len="768"/>
       </track>
       <track muted="0" type="1" name="Wave">
         <bbtrack/>
@@ -2189,34 +2191,55 @@
         <bbtco muted="0" name="" pos="1728" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="1920" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="2112" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2496" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2496" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2688" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2880" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="2304" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="3264" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="3072" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3264" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="3456" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="3648" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="5376" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3072" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="4032" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="3840" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="4224" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="4416" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="6144" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="6528" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="6528" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="6336" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="6720" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="6912" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="7104" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="7296" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="7488" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="5760" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="5760" color="4282417407" len="192"/>
-        <bbtco muted="0" name="" pos="5568" color="4282417407" len="192"/>
         <bbtco muted="0" name="" pos="5952" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2496" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2304" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2688" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="2880" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="5568" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="5568" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="5376" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="7872" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="7680" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="8064" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="8448" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="8448" color="4282417407" len="192"/>
+        <bbtco muted="0" name="" pos="8256" color="4282417407" len="192"/>
       </track>
       <track muted="0" type="1" name="Chorus Pre-note">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="5376" color="4282417407" len="372"/>
-        <bbtco muted="0" name="" pos="1536" color="4282417407" len="384"/>
-        <bbtco muted="0" name="" pos="2304" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="6144" color="4282417407" len="372"/>
         <bbtco muted="0" name="" pos="3072" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="3840" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="6912" color="4282417407" len="384"/>
+        <bbtco muted="0" name="" pos="7680" color="4282417407" len="384"/>
       </track>
       <track muted="0" type="1" name="Chorus">
         <bbtrack/>
-        <bbtco muted="0" name="" pos="5568" color="4282417407" len="768"/>
-        <bbtco muted="0" name="" pos="1728" color="4282417407" len="768"/>
-        <bbtco muted="0" name="" pos="2496" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="6336" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="3264" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="4032" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="7104" color="4282417407" len="768"/>
+        <bbtco muted="0" name="" pos="7872" color="4282417407" len="768"/>
       </track>
     </trackcontainer>
     <track muted="0" type="6" name="Automation track">
@@ -2475,14 +2498,14 @@
       </fxchannel>
     </fxmixer>
     <ControllerRackView width="1059" x="0" y="12" maximized="0" height="640" visible="0" minimized="0"/>
-    <pianoroll width="1135" x="181" y="235" maximized="0" height="568" visible="1" minimized="0"/>
+    <pianoroll width="1135" x="1" y="450" maximized="0" height="568" visible="1" minimized="0"/>
     <automationeditor width="1059" x="49" y="203" maximized="0" height="640" visible="0" minimized="0"/>
     <projectnotes width="1059" x="0" y="38" maximized="0" height="640" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;">
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#e0e0e0;">Put down your project notes here.</span></p></body></html>]]></projectnotes>
-    <timeline lp1pos="6144" lp0pos="0" lpstate="1"/>
+    <timeline lp1pos="8448" lp0pos="0" lpstate="1"/>
     <controllers/>
   </song>
 </multimedia-project>
