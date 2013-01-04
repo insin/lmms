@@ -24,8 +24,15 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="16" muted="0" type="0" name="JD-990 Kick.wav" pos="0" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="JD-990 Kick.wav" pos="192" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Kick.wav" pos="0" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Kick.wav" pos="192" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+              </pattern>
               <pattern steps="16" muted="0" type="0" name="JD-990 Kick.wav" pos="384" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="JD-990 Kick.wav" pos="576" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
@@ -114,7 +121,11 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="16" muted="0" type="0" name="JD-990 Shaker.wav" pos="0" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Shaker.wav" pos="0" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+              </pattern>
               <pattern steps="16" muted="0" type="0" name="JD-990 Shaker.wav" pos="192" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="24" len="-192"/>
@@ -255,7 +266,7 @@
         <bbtco muted="0" name="" pos="2304" color="4282417407" len="768"/>
         <bbtco muted="0" name="" pos="3072" color="4282417407" len="576"/>
       </track>
-      <track muted="0" type="1" name="Shaker">
+      <track muted="0" type="1" name="3 Shaker">
         <bbtrack/>
         <bbtco muted="0" name="" pos="3840" color="4282417407" len="5760"/>
       </track>
@@ -4200,7 +4211,7 @@
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;">
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#e0e0e0;">Put down your project notes here.</span></p></body></html>]]></projectnotes>
-    <timeline lp1pos="9984" lp0pos="3840" lpstate="1"/>
+    <timeline lp1pos="9984" lp0pos="3840" lpstate="0"/>
     <controllers/>
   </song>
 </multimedia-project>
