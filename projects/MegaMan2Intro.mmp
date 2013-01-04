@@ -3556,18 +3556,15 @@
           <object id="1548568"/>
         </automationpattern>
         <automationpattern name="Tempo" pos="2304" len="192">
-          <time value="125" pos="0"/>
+          <time value="126" pos="0"/>
           <object id="1548568"/>
         </automationpattern>
         <automationpattern name="Tempo" pos="3072" len="192">
           <time value="140" pos="0"/>
-          <time value="140" pos="12"/>
           <object id="1548568"/>
         </automationpattern>
         <automationpattern name="Tempo" pos="3840" len="192">
           <time value="176" pos="0"/>
-          <time value="176" pos="12"/>
-          <time value="176" pos="24"/>
           <object id="1548568"/>
         </automationpattern>
       </track>
