@@ -6,7 +6,7 @@
     <trackcontainer width="873" x="5" y="5" maximized="0" height="368" visible="1" type="song" minimized="0">
       <track muted="0" type="1" name="Beat/Bassline 0">
         <bbtrack>
-          <trackcontainer width="623" x="882" y="1" maximized="0" height="332" visible="1" type="bbtrackcontainer" minimized="0">
+          <trackcontainer width="623" x="597" y="391" maximized="0" height="332" visible="1" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="05_BASS_03.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
@@ -2997,7 +2997,8 @@
         </pattern>
       </track>
       <track muted="0" type="0" name="Bells">
-        <instrumenttrack pan="0" fxch="7" pitch="0" basenote="57" vol="100">
+        <instrumenttrack fxch="7" pitch="0" basenote="57" vol="100">
+          <pan value="-49.9" id="42804"/>
           <instrument name="zynaddsubfx">
             <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
               <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
@@ -3728,6 +3729,171 @@
           <note pan="0" key="83" vol="100" pos="1392" len="72"/>
           <note pan="0" key="86" vol="100" pos="1416" len="216"/>
         </pattern>
+      </track>
+      <track muted="0" type="5" name="Bell Panning">
+        <automationtrack/>
+        <automationpattern name="Bells>Panning" pos="1728" len="1536">
+          <time value="-74.2" pos="0"/>
+          <time value="-49.4" pos="48"/>
+          <time value="-24.5" pos="96"/>
+          <time value="0.8" pos="144"/>
+          <time value="0.8" pos="156"/>
+          <time value="7.74286" pos="168"/>
+          <time value="14.6857" pos="180"/>
+          <time value="21.6286" pos="192"/>
+          <time value="28.5714" pos="204"/>
+          <time value="35.5143" pos="216"/>
+          <time value="42.4571" pos="228"/>
+          <time value="49.4" pos="240"/>
+          <time value="76.2" pos="384"/>
+          <time value="49.9" pos="432"/>
+          <time value="25.1" pos="480"/>
+          <time value="0.3" pos="528"/>
+          <time value="0.3" pos="540"/>
+          <time value="-6.87143" pos="552"/>
+          <time value="-14.0429" pos="564"/>
+          <time value="-21.2143" pos="576"/>
+          <time value="-28.3857" pos="588"/>
+          <time value="-35.5571" pos="600"/>
+          <time value="-42.7286" pos="612"/>
+          <time value="-49.9" pos="624"/>
+          <time value="-74.7" pos="756"/>
+          <time value="-74.7" pos="768"/>
+          <time value="-75.2" pos="792"/>
+          <time value="-75.2" pos="804"/>
+          <time value="-50.9" pos="816"/>
+          <time value="-25.1" pos="864"/>
+          <time value="0.8" pos="912"/>
+          <time value="0.8" pos="924"/>
+          <time value="7.65714" pos="936"/>
+          <time value="14.5143" pos="948"/>
+          <time value="21.3714" pos="960"/>
+          <time value="28.2286" pos="972"/>
+          <time value="35.0857" pos="984"/>
+          <time value="41.9429" pos="996"/>
+          <time value="48.8" pos="1008"/>
+          <time value="74.7" pos="1152"/>
+          <time value="50.9" pos="1200"/>
+          <time value="25.1" pos="1248"/>
+          <time value="1.8" pos="1296"/>
+          <time value="1.8" pos="1308"/>
+          <time value="-4.7875" pos="1320"/>
+          <time value="-11.375" pos="1332"/>
+          <time value="-17.9625" pos="1344"/>
+          <time value="-24.55" pos="1356"/>
+          <time value="-31.1375" pos="1368"/>
+          <time value="-37.725" pos="1380"/>
+          <time value="-50.9" pos="1392"/>
+          <object id="42804"/>
+        </automationpattern>
+        <automationpattern name="Bells>Panning" pos="3264" len="1536">
+          <time value="-74.2" pos="0"/>
+          <time value="-49.4" pos="48"/>
+          <time value="-24.5" pos="96"/>
+          <time value="0.8" pos="144"/>
+          <time value="0.8" pos="156"/>
+          <time value="7.74286" pos="168"/>
+          <time value="14.6857" pos="180"/>
+          <time value="21.6286" pos="192"/>
+          <time value="28.5714" pos="204"/>
+          <time value="35.5143" pos="216"/>
+          <time value="42.4571" pos="228"/>
+          <time value="49.4" pos="240"/>
+          <time value="76.2" pos="384"/>
+          <time value="49.9" pos="432"/>
+          <time value="25.1" pos="480"/>
+          <time value="0.3" pos="528"/>
+          <time value="0.3" pos="540"/>
+          <time value="-6.87143" pos="552"/>
+          <time value="-14.0429" pos="564"/>
+          <time value="-21.2143" pos="576"/>
+          <time value="-28.3857" pos="588"/>
+          <time value="-35.5571" pos="600"/>
+          <time value="-42.7286" pos="612"/>
+          <time value="-49.9" pos="624"/>
+          <time value="-74.7" pos="756"/>
+          <time value="-74.7" pos="768"/>
+          <time value="-75.2" pos="792"/>
+          <time value="-75.2" pos="804"/>
+          <time value="-50.9" pos="816"/>
+          <time value="-25.1" pos="864"/>
+          <time value="0.8" pos="912"/>
+          <time value="0.8" pos="924"/>
+          <time value="7.65714" pos="936"/>
+          <time value="14.5143" pos="948"/>
+          <time value="21.3714" pos="960"/>
+          <time value="28.2286" pos="972"/>
+          <time value="35.0857" pos="984"/>
+          <time value="41.9429" pos="996"/>
+          <time value="48.8" pos="1008"/>
+          <time value="74.7" pos="1152"/>
+          <time value="50.9" pos="1200"/>
+          <time value="25.1" pos="1248"/>
+          <time value="1.8" pos="1296"/>
+          <time value="1.8" pos="1308"/>
+          <time value="-4.7875" pos="1320"/>
+          <time value="-11.375" pos="1332"/>
+          <time value="-17.9625" pos="1344"/>
+          <time value="-24.55" pos="1356"/>
+          <time value="-31.1375" pos="1368"/>
+          <time value="-37.725" pos="1380"/>
+          <time value="-50.9" pos="1392"/>
+          <object id="42804"/>
+        </automationpattern>
+        <automationpattern name="Bells>Panning" pos="4800" len="1536">
+          <time value="-74.2" pos="0"/>
+          <time value="-49.4" pos="48"/>
+          <time value="-24.5" pos="96"/>
+          <time value="0.8" pos="144"/>
+          <time value="0.8" pos="156"/>
+          <time value="7.74286" pos="168"/>
+          <time value="14.6857" pos="180"/>
+          <time value="21.6286" pos="192"/>
+          <time value="28.5714" pos="204"/>
+          <time value="35.5143" pos="216"/>
+          <time value="42.4571" pos="228"/>
+          <time value="49.4" pos="240"/>
+          <time value="76.2" pos="384"/>
+          <time value="49.9" pos="432"/>
+          <time value="25.1" pos="480"/>
+          <time value="0.3" pos="528"/>
+          <time value="0.3" pos="540"/>
+          <time value="-6.87143" pos="552"/>
+          <time value="-14.0429" pos="564"/>
+          <time value="-21.2143" pos="576"/>
+          <time value="-28.3857" pos="588"/>
+          <time value="-35.5571" pos="600"/>
+          <time value="-42.7286" pos="612"/>
+          <time value="-49.9" pos="624"/>
+          <time value="-74.7" pos="756"/>
+          <time value="-74.7" pos="768"/>
+          <time value="-75.2" pos="792"/>
+          <time value="-75.2" pos="804"/>
+          <time value="-50.9" pos="816"/>
+          <time value="-25.1" pos="864"/>
+          <time value="0.8" pos="912"/>
+          <time value="0.8" pos="924"/>
+          <time value="7.65714" pos="936"/>
+          <time value="14.5143" pos="948"/>
+          <time value="21.3714" pos="960"/>
+          <time value="28.2286" pos="972"/>
+          <time value="35.0857" pos="984"/>
+          <time value="41.9429" pos="996"/>
+          <time value="48.8" pos="1008"/>
+          <time value="74.7" pos="1152"/>
+          <time value="50.9" pos="1200"/>
+          <time value="25.1" pos="1248"/>
+          <time value="1.8" pos="1296"/>
+          <time value="1.8" pos="1308"/>
+          <time value="-4.7875" pos="1320"/>
+          <time value="-11.375" pos="1332"/>
+          <time value="-17.9625" pos="1344"/>
+          <time value="-24.55" pos="1356"/>
+          <time value="-31.1375" pos="1368"/>
+          <time value="-37.725" pos="1380"/>
+          <time value="-50.9" pos="1392"/>
+          <object id="42804"/>
+        </automationpattern>
       </track>
       <track muted="0" type="0" name="Lead">
         <instrumenttrack pan="0" fxch="8" pitch="0" basenote="57" vol="100">
@@ -5106,7 +5272,7 @@
         <time value="0" pos="0"/>
       </automationpattern>
     </track>
-    <fxmixer width="864" x="12" y="536" maximized="0" height="278" visible="1" minimized="0">
+    <fxmixer width="863" x="12" y="536" maximized="0" height="278" visible="1" minimized="0">
       <fxchannel num="0" muted="0" volume="1" name="Master">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
@@ -5129,9 +5295,9 @@
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
       <fxchannel num="7" muted="0" volume="1.36" name="Bells">
-        <fxchain numofeffects="0" enabled="0"/>
+        <fxchain numofeffects="0" enabled="1"/>
       </fxchannel>
-      <fxchannel num="8" muted="0" volume="1.66" name="Lead">
+      <fxchannel num="8" muted="0" volume="1.71" name="Lead">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
       <fxchannel num="9" muted="0" volume="1" name="FX 9">
@@ -5305,7 +5471,7 @@
     </fxmixer>
     <ControllerRackView width="258" x="881" y="310" maximized="0" height="172" visible="0" minimized="0"/>
     <pianoroll width="1190" x="19" y="406" maximized="0" height="530" visible="0" minimized="0"/>
-    <automationeditor width="740" x="510" y="149" maximized="0" height="480" visible="0" minimized="0"/>
+    <automationeditor width="740" x="510" y="149" maximized="0" height="480" visible="1" minimized="0"/>
     <projectnotes width="400" x="700" y="10" maximized="0" height="300" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
