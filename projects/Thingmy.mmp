@@ -3,10 +3,10 @@
 <multimedia-project version="1.0" creator="Linux MultiMedia Studio (LMMS)" creatorversion="0.4.13" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="128" masterpitch="0"/>
   <song>
-    <trackcontainer width="873" x="5" y="5" maximized="0" height="368" visible="1" type="song" minimized="0">
+    <trackcontainer width="1140" x="40" y="25" maximized="0" height="407" visible="1" type="song" minimized="0">
       <track muted="0" type="1" name="Beat/Bassline 0">
         <bbtrack>
-          <trackcontainer width="623" x="597" y="391" maximized="0" height="332" visible="1" type="bbtrackcontainer" minimized="0">
+          <trackcontainer width="623" x="238" y="352" maximized="0" height="332" visible="0" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="05_BASS_03.wav">
               <instrumenttrack pan="0" fxch="1" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
@@ -30,6 +30,7 @@
               </pattern>
               <pattern steps="16" muted="0" type="0" name="05_BASS_03.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="05_BASS_03.wav" pos="384" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="05_BASS_03.wav" pos="576" len="192" frozen="0"/>
             </track>
             <track muted="0" type="0" name="08_SNARE_03.wav">
               <instrumenttrack pan="0" fxch="2" pitch="0" basenote="57" vol="100">
@@ -52,6 +53,7 @@
               </pattern>
               <pattern steps="16" muted="0" type="0" name="08_SNARE_03.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="08_SNARE_03.wav" pos="384" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="08_SNARE_03.wav" pos="576" len="192" frozen="0"/>
             </track>
             <track muted="0" type="0" name="09_HI-HAT_CLOSED.wav">
               <instrumenttrack pan="0" fxch="3" pitch="0" basenote="57" vol="100">
@@ -69,7 +71,8 @@
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
               <pattern steps="16" muted="0" type="0" name="09_HI-HAT_CLOSED.wav" pos="0" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="09_HI-HAT_CLOSED.wav" pos="192" len="192" frozen="0">
+              <pattern steps="16" muted="0" type="0" name="09_HI-HAT_CLOSED.wav" pos="192" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="09_HI-HAT_CLOSED.wav" pos="384" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="36" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="60" len="-192"/>
@@ -78,7 +81,7 @@
                 <note pan="0" key="57" vol="100" pos="156" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="168" len="-192"/>
               </pattern>
-              <pattern steps="16" muted="0" type="0" name="09_HI-HAT_CLOSED.wav" pos="384" len="192" frozen="0">
+              <pattern steps="16" muted="0" type="0" name="09_HI-HAT_CLOSED.wav" pos="576" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="24" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="36" len="-192"/>
@@ -107,26 +110,56 @@
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
               <pattern steps="16" muted="0" type="0" name="10_HI-HAT_ACCENT.wav" pos="0" len="192" frozen="0"/>
-              <pattern steps="16" muted="0" type="0" name="10_HI-HAT_ACCENT.wav" pos="192" len="192" frozen="0">
-                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
-                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
-              </pattern>
+              <pattern steps="16" muted="0" type="0" name="10_HI-HAT_ACCENT.wav" pos="192" len="192" frozen="0"/>
               <pattern steps="16" muted="0" type="0" name="10_HI-HAT_ACCENT.wav" pos="384" len="192" frozen="0">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
               </pattern>
+              <pattern steps="16" muted="0" type="0" name="10_HI-HAT_ACCENT.wav" pos="576" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+              </pattern>
+            </track>
+            <track muted="0" type="0" name="JD-990 Clap.wav">
+              <instrumenttrack pan="0" fxch="9" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" eframe="1" sframe="0" src="Roland JD-990 Kit/JD-990 Clap.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" sus="0.5" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" outputprogram="1" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Clap.wav" pos="0" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Clap.wav" pos="192" len="192" frozen="0">
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Clap.wav" pos="384" len="192" frozen="0"/>
+              <pattern steps="16" muted="0" type="0" name="JD-990 Clap.wav" pos="576" len="192" frozen="0"/>
             </track>
           </trackcontainer>
         </bbtrack>
-        <bbtco muted="0" name="" pos="1536" color="4282417407" len="4608"/>
+        <bbtco muted="0" name="" pos="1536" color="4282417407" len="7680"/>
+      </track>
+      <track muted="0" type="1" name="Beat/Bassline 3">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="6144" color="4282417407" len="3072"/>
       </track>
       <track muted="0" type="1" name="Beat/Bassline 1">
         <bbtrack/>
         <bbtco muted="0" name="" pos="3072" color="4282417407" len="1536"/>
+        <bbtco muted="0" name="" pos="6144" color="4282417407" len="1536"/>
       </track>
       <track muted="0" type="1" name="Beat/Bassline 2">
         <bbtrack/>
         <bbtco muted="0" name="" pos="4608" color="4282417407" len="1536"/>
+        <bbtco muted="0" name="" pos="7680" color="4282417407" len="1536"/>
       </track>
       <track muted="0" type="0" name="Chords">
         <instrumenttrack pan="0" fxch="6" pitch="0" basenote="57" vol="100">
@@ -2054,6 +2087,42 @@
           <note pan="0" key="55" vol="100" pos="1200" len="324"/>
           <note pan="0" key="52" vol="100" pos="1224" len="300"/>
         </pattern>
+        <pattern steps="16" muted="0" type="1" name="Chords" pos="6144" len="1536" frozen="0">
+          <note pan="0" key="48" vol="100" pos="0" len="372"/>
+          <note pan="0" key="52" vol="100" pos="24" len="348"/>
+          <note pan="0" key="55" vol="100" pos="48" len="324"/>
+          <note pan="0" key="59" vol="100" pos="72" len="300"/>
+          <note pan="0" key="57" vol="100" pos="384" len="372"/>
+          <note pan="0" key="54" vol="100" pos="408" len="348"/>
+          <note pan="0" key="52" vol="100" pos="432" len="324"/>
+          <note pan="0" key="48" vol="100" pos="456" len="300"/>
+          <note pan="0" key="53" vol="100" pos="768" len="372"/>
+          <note pan="0" key="57" vol="100" pos="792" len="348"/>
+          <note pan="0" key="60" vol="100" pos="816" len="324"/>
+          <note pan="0" key="64" vol="100" pos="840" len="300"/>
+          <note pan="0" key="62" vol="100" pos="1152" len="372"/>
+          <note pan="0" key="59" vol="100" pos="1176" len="348"/>
+          <note pan="0" key="55" vol="100" pos="1200" len="324"/>
+          <note pan="0" key="52" vol="100" pos="1224" len="300"/>
+        </pattern>
+        <pattern steps="16" muted="0" type="1" name="Chords" pos="7680" len="1536" frozen="0">
+          <note pan="0" key="48" vol="100" pos="0" len="372"/>
+          <note pan="0" key="52" vol="100" pos="24" len="348"/>
+          <note pan="0" key="55" vol="100" pos="48" len="324"/>
+          <note pan="0" key="59" vol="100" pos="72" len="300"/>
+          <note pan="0" key="57" vol="100" pos="384" len="372"/>
+          <note pan="0" key="54" vol="100" pos="408" len="348"/>
+          <note pan="0" key="52" vol="100" pos="432" len="324"/>
+          <note pan="0" key="48" vol="100" pos="456" len="300"/>
+          <note pan="0" key="53" vol="100" pos="768" len="372"/>
+          <note pan="0" key="57" vol="100" pos="792" len="348"/>
+          <note pan="0" key="60" vol="100" pos="816" len="324"/>
+          <note pan="0" key="64" vol="100" pos="840" len="300"/>
+          <note pan="0" key="62" vol="100" pos="1152" len="372"/>
+          <note pan="0" key="59" vol="100" pos="1176" len="348"/>
+          <note pan="0" key="55" vol="100" pos="1200" len="324"/>
+          <note pan="0" key="52" vol="100" pos="1224" len="300"/>
+        </pattern>
       </track>
       <track muted="0" type="0" name="Bass">
         <instrumenttrack pan="0" fxch="5" pitch="0" basenote="57" vol="100">
@@ -2995,10 +3064,94 @@
           <note pan="0" key="48" vol="100" pos="1488" len="12"/>
           <note pan="0" key="45" vol="100" pos="1500" len="36"/>
         </pattern>
+        <pattern steps="16" muted="0" type="1" name="Bass" pos="6144" len="1536" frozen="0">
+          <note pan="0" key="36" vol="100" pos="0" len="72"/>
+          <note pan="0" key="48" vol="100" pos="72" len="48"/>
+          <note pan="0" key="36" vol="100" pos="120" len="24"/>
+          <note pan="0" key="36" vol="100" pos="156" len="12"/>
+          <note pan="0" key="48" vol="100" pos="168" len="24"/>
+          <note pan="0" key="36" vol="100" pos="192" len="72"/>
+          <note pan="0" key="48" vol="100" pos="264" len="48"/>
+          <note pan="0" key="45" vol="100" pos="312" len="12"/>
+          <note pan="0" key="48" vol="100" pos="336" len="12"/>
+          <note pan="0" key="50" vol="100" pos="348" len="36"/>
+          <note pan="0" key="38" vol="100" pos="384" len="72"/>
+          <note pan="0" key="45" vol="100" pos="456" len="48"/>
+          <note pan="0" key="38" vol="100" pos="504" len="24"/>
+          <note pan="0" key="38" vol="100" pos="540" len="12"/>
+          <note pan="0" key="45" vol="100" pos="552" len="24"/>
+          <note pan="0" key="38" vol="100" pos="576" len="72"/>
+          <note pan="0" key="45" vol="100" pos="648" len="48"/>
+          <note pan="0" key="48" vol="100" pos="696" len="12"/>
+          <note pan="0" key="50" vol="100" pos="720" len="12"/>
+          <note pan="0" key="53" vol="100" pos="732" len="36"/>
+          <note pan="0" key="41" vol="100" pos="768" len="72"/>
+          <note pan="0" key="53" vol="100" pos="840" len="48"/>
+          <note pan="0" key="41" vol="100" pos="888" len="24"/>
+          <note pan="0" key="41" vol="100" pos="924" len="12"/>
+          <note pan="0" key="53" vol="100" pos="936" len="24"/>
+          <note pan="0" key="41" vol="100" pos="960" len="72"/>
+          <note pan="0" key="53" vol="100" pos="1032" len="48"/>
+          <note pan="0" key="55" vol="100" pos="1080" len="12"/>
+          <note pan="0" key="52" vol="100" pos="1104" len="12"/>
+          <note pan="0" key="50" vol="100" pos="1116" len="36"/>
+          <note pan="0" key="40" vol="100" pos="1152" len="72"/>
+          <note pan="0" key="52" vol="100" pos="1224" len="48"/>
+          <note pan="0" key="40" vol="100" pos="1272" len="24"/>
+          <note pan="0" key="40" vol="100" pos="1308" len="12"/>
+          <note pan="0" key="52" vol="100" pos="1320" len="24"/>
+          <note pan="0" key="38" vol="100" pos="1344" len="72"/>
+          <note pan="0" key="50" vol="100" pos="1416" len="48"/>
+          <note pan="0" key="50" vol="100" pos="1464" len="12"/>
+          <note pan="0" key="48" vol="100" pos="1488" len="12"/>
+          <note pan="0" key="45" vol="100" pos="1500" len="36"/>
+        </pattern>
+        <pattern steps="16" muted="0" type="1" name="Bass" pos="7680" len="1536" frozen="0">
+          <note pan="0" key="36" vol="100" pos="0" len="72"/>
+          <note pan="0" key="48" vol="100" pos="72" len="48"/>
+          <note pan="0" key="36" vol="100" pos="120" len="24"/>
+          <note pan="0" key="36" vol="100" pos="156" len="12"/>
+          <note pan="0" key="48" vol="100" pos="168" len="24"/>
+          <note pan="0" key="36" vol="100" pos="192" len="72"/>
+          <note pan="0" key="48" vol="100" pos="264" len="48"/>
+          <note pan="0" key="45" vol="100" pos="312" len="12"/>
+          <note pan="0" key="48" vol="100" pos="336" len="12"/>
+          <note pan="0" key="50" vol="100" pos="348" len="36"/>
+          <note pan="0" key="38" vol="100" pos="384" len="72"/>
+          <note pan="0" key="45" vol="100" pos="456" len="48"/>
+          <note pan="0" key="38" vol="100" pos="504" len="24"/>
+          <note pan="0" key="38" vol="100" pos="540" len="12"/>
+          <note pan="0" key="45" vol="100" pos="552" len="24"/>
+          <note pan="0" key="38" vol="100" pos="576" len="72"/>
+          <note pan="0" key="45" vol="100" pos="648" len="48"/>
+          <note pan="0" key="48" vol="100" pos="696" len="12"/>
+          <note pan="0" key="50" vol="100" pos="720" len="12"/>
+          <note pan="0" key="53" vol="100" pos="732" len="36"/>
+          <note pan="0" key="41" vol="100" pos="768" len="72"/>
+          <note pan="0" key="53" vol="100" pos="840" len="48"/>
+          <note pan="0" key="41" vol="100" pos="888" len="24"/>
+          <note pan="0" key="41" vol="100" pos="924" len="12"/>
+          <note pan="0" key="53" vol="100" pos="936" len="24"/>
+          <note pan="0" key="41" vol="100" pos="960" len="72"/>
+          <note pan="0" key="53" vol="100" pos="1032" len="48"/>
+          <note pan="0" key="55" vol="100" pos="1080" len="12"/>
+          <note pan="0" key="52" vol="100" pos="1104" len="12"/>
+          <note pan="0" key="50" vol="100" pos="1116" len="36"/>
+          <note pan="0" key="40" vol="100" pos="1152" len="72"/>
+          <note pan="0" key="52" vol="100" pos="1224" len="48"/>
+          <note pan="0" key="40" vol="100" pos="1272" len="24"/>
+          <note pan="0" key="40" vol="100" pos="1308" len="12"/>
+          <note pan="0" key="52" vol="100" pos="1320" len="24"/>
+          <note pan="0" key="38" vol="100" pos="1344" len="72"/>
+          <note pan="0" key="50" vol="100" pos="1416" len="48"/>
+          <note pan="0" key="50" vol="100" pos="1464" len="12"/>
+          <note pan="0" key="48" vol="100" pos="1488" len="12"/>
+          <note pan="0" key="45" vol="100" pos="1500" len="36"/>
+        </pattern>
       </track>
       <track muted="0" type="0" name="Bells">
         <instrumenttrack fxch="7" pitch="0" basenote="57" vol="100">
-          <pan value="-49.9" id="42804"/>
+          <pan value="-61.1" id="42804"/>
           <instrument name="zynaddsubfx">
             <zynaddsubfx resbandwidth="64" fmgain="127" portamento="0" modifiedcontrollers="" filterfreq="64" bandwidth="64" forwardmidicc="1" filterq="64" rescenterfreq="64">
               <ZynAddSubFX-data version-revision="1" version-minor="4" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
@@ -3693,7 +3846,7 @@
           <note pan="0" key="83" vol="100" pos="1392" len="72"/>
           <note pan="0" key="86" vol="100" pos="1416" len="216"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Bells" pos="3072" len="1728" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Bells" pos="6144" len="1728" frozen="0">
           <note pan="0" key="83" vol="100" pos="192" len="72"/>
           <note pan="0" key="79" vol="100" pos="216" len="72"/>
           <note pan="0" key="76" vol="100" pos="240" len="72"/>
@@ -3711,7 +3864,7 @@
           <note pan="0" key="83" vol="100" pos="1392" len="72"/>
           <note pan="0" key="86" vol="100" pos="1416" len="216"/>
         </pattern>
-        <pattern steps="16" muted="0" type="1" name="Bells" pos="4608" len="1728" frozen="0">
+        <pattern steps="16" muted="0" type="1" name="Bells" pos="7680" len="1728" frozen="0">
           <note pan="0" key="83" vol="100" pos="192" len="72"/>
           <note pan="0" key="79" vol="100" pos="216" len="72"/>
           <note pan="0" key="76" vol="100" pos="240" len="72"/>
@@ -3733,165 +3886,600 @@
       <track muted="0" type="5" name="Bell Panning">
         <automationtrack/>
         <automationpattern name="Bells>Panning" pos="1728" len="1536">
-          <time value="-74.2" pos="0"/>
-          <time value="-49.4" pos="48"/>
-          <time value="-24.5" pos="96"/>
-          <time value="0.8" pos="144"/>
-          <time value="0.8" pos="156"/>
-          <time value="7.74286" pos="168"/>
-          <time value="14.6857" pos="180"/>
-          <time value="21.6286" pos="192"/>
-          <time value="28.5714" pos="204"/>
-          <time value="35.5143" pos="216"/>
-          <time value="42.4571" pos="228"/>
-          <time value="49.4" pos="240"/>
-          <time value="76.2" pos="384"/>
-          <time value="49.9" pos="432"/>
-          <time value="25.1" pos="480"/>
-          <time value="0.3" pos="528"/>
-          <time value="0.3" pos="540"/>
-          <time value="-6.87143" pos="552"/>
-          <time value="-14.0429" pos="564"/>
-          <time value="-21.2143" pos="576"/>
-          <time value="-28.3857" pos="588"/>
-          <time value="-35.5571" pos="600"/>
-          <time value="-42.7286" pos="612"/>
-          <time value="-49.9" pos="624"/>
-          <time value="-74.7" pos="756"/>
-          <time value="-74.7" pos="768"/>
-          <time value="-75.2" pos="792"/>
-          <time value="-75.2" pos="804"/>
-          <time value="-50.9" pos="816"/>
-          <time value="-25.1" pos="864"/>
-          <time value="0.8" pos="912"/>
-          <time value="0.8" pos="924"/>
-          <time value="7.65714" pos="936"/>
-          <time value="14.5143" pos="948"/>
-          <time value="21.3714" pos="960"/>
-          <time value="28.2286" pos="972"/>
-          <time value="35.0857" pos="984"/>
-          <time value="41.9429" pos="996"/>
-          <time value="48.8" pos="1008"/>
-          <time value="74.7" pos="1152"/>
-          <time value="50.9" pos="1200"/>
-          <time value="25.1" pos="1248"/>
-          <time value="1.8" pos="1296"/>
-          <time value="1.8" pos="1308"/>
-          <time value="-4.7875" pos="1320"/>
-          <time value="-11.375" pos="1332"/>
-          <time value="-17.9625" pos="1344"/>
-          <time value="-24.55" pos="1356"/>
-          <time value="-31.1375" pos="1368"/>
-          <time value="-37.725" pos="1380"/>
-          <time value="-50.9" pos="1392"/>
+          <time value="-62.2" pos="0"/>
+          <time value="-62.2" pos="6"/>
+          <time value="-59.0725" pos="12"/>
+          <time value="-55.945" pos="18"/>
+          <time value="-52.8175" pos="24"/>
+          <time value="-49.69" pos="30"/>
+          <time value="-46.5625" pos="36"/>
+          <time value="-43.435" pos="42"/>
+          <time value="-40.3075" pos="48"/>
+          <time value="-37.18" pos="54"/>
+          <time value="-34.0525" pos="60"/>
+          <time value="-30.925" pos="66"/>
+          <time value="-27.7975" pos="72"/>
+          <time value="-24.67" pos="78"/>
+          <time value="-21.5425" pos="84"/>
+          <time value="-18.415" pos="90"/>
+          <time value="-15.2875" pos="96"/>
+          <time value="-12.16" pos="102"/>
+          <time value="-9.0325" pos="108"/>
+          <time value="-5.905" pos="114"/>
+          <time value="-2.7775" pos="120"/>
+          <time value="0.35" pos="126"/>
+          <time value="3.4775" pos="132"/>
+          <time value="6.605" pos="138"/>
+          <time value="9.7325" pos="144"/>
+          <time value="12.86" pos="150"/>
+          <time value="15.9875" pos="156"/>
+          <time value="19.115" pos="162"/>
+          <time value="22.2425" pos="168"/>
+          <time value="25.37" pos="174"/>
+          <time value="28.4975" pos="180"/>
+          <time value="31.625" pos="186"/>
+          <time value="34.7525" pos="192"/>
+          <time value="37.88" pos="198"/>
+          <time value="41.0075" pos="204"/>
+          <time value="44.135" pos="210"/>
+          <time value="47.2625" pos="216"/>
+          <time value="50.39" pos="222"/>
+          <time value="53.5175" pos="228"/>
+          <time value="56.645" pos="234"/>
+          <time value="62.9" pos="240"/>
+          <time value="63.2" pos="384"/>
+          <time value="63.2" pos="390"/>
+          <time value="60.5771" pos="396"/>
+          <time value="57.9542" pos="402"/>
+          <time value="55.3312" pos="408"/>
+          <time value="52.7083" pos="414"/>
+          <time value="50.0854" pos="420"/>
+          <time value="47.4625" pos="426"/>
+          <time value="44.8396" pos="432"/>
+          <time value="42.2167" pos="438"/>
+          <time value="39.5938" pos="444"/>
+          <time value="36.9708" pos="450"/>
+          <time value="34.3479" pos="456"/>
+          <time value="31.725" pos="462"/>
+          <time value="29.1021" pos="468"/>
+          <time value="26.4792" pos="474"/>
+          <time value="23.8563" pos="480"/>
+          <time value="21.2333" pos="486"/>
+          <time value="18.6104" pos="492"/>
+          <time value="15.9875" pos="498"/>
+          <time value="13.3646" pos="504"/>
+          <time value="10.7417" pos="510"/>
+          <time value="8.11875" pos="516"/>
+          <time value="5.49583" pos="522"/>
+          <time value="2.87292" pos="528"/>
+          <time value="0.25" pos="534"/>
+          <time value="-2.37292" pos="540"/>
+          <time value="-4.99583" pos="546"/>
+          <time value="-7.61875" pos="552"/>
+          <time value="-10.2417" pos="558"/>
+          <time value="-12.8646" pos="564"/>
+          <time value="-15.4875" pos="570"/>
+          <time value="-18.1104" pos="576"/>
+          <time value="-20.7333" pos="582"/>
+          <time value="-23.3563" pos="588"/>
+          <time value="-25.9792" pos="594"/>
+          <time value="-28.6021" pos="600"/>
+          <time value="-31.225" pos="606"/>
+          <time value="-33.8479" pos="612"/>
+          <time value="-36.4708" pos="618"/>
+          <time value="-39.0938" pos="624"/>
+          <time value="-41.7167" pos="630"/>
+          <time value="-44.3396" pos="636"/>
+          <time value="-46.9625" pos="642"/>
+          <time value="-49.5854" pos="648"/>
+          <time value="-52.2083" pos="654"/>
+          <time value="-54.8312" pos="660"/>
+          <time value="-57.4542" pos="666"/>
+          <time value="-62.7" pos="672"/>
+          <time value="-62.9" pos="768"/>
+          <time value="-62.9" pos="774"/>
+          <time value="-60.2234" pos="780"/>
+          <time value="-57.5468" pos="786"/>
+          <time value="-54.8702" pos="792"/>
+          <time value="-52.1936" pos="798"/>
+          <time value="-49.517" pos="804"/>
+          <time value="-46.8404" pos="810"/>
+          <time value="-44.1638" pos="816"/>
+          <time value="-41.4872" pos="822"/>
+          <time value="-38.8106" pos="828"/>
+          <time value="-36.134" pos="834"/>
+          <time value="-33.4574" pos="840"/>
+          <time value="-30.7808" pos="846"/>
+          <time value="-28.1043" pos="852"/>
+          <time value="-25.4277" pos="858"/>
+          <time value="-22.7511" pos="864"/>
+          <time value="-20.0745" pos="870"/>
+          <time value="-17.3979" pos="876"/>
+          <time value="-14.7213" pos="882"/>
+          <time value="-12.0447" pos="888"/>
+          <time value="-9.36808" pos="894"/>
+          <time value="-6.69149" pos="900"/>
+          <time value="-4.01489" pos="906"/>
+          <time value="-1.3383" pos="912"/>
+          <time value="1.3383" pos="918"/>
+          <time value="4.0149" pos="924"/>
+          <time value="6.69149" pos="930"/>
+          <time value="9.36809" pos="936"/>
+          <time value="12.0447" pos="942"/>
+          <time value="14.7213" pos="948"/>
+          <time value="17.3979" pos="954"/>
+          <time value="20.0745" pos="960"/>
+          <time value="22.7511" pos="966"/>
+          <time value="25.4277" pos="972"/>
+          <time value="28.1043" pos="978"/>
+          <time value="30.7809" pos="984"/>
+          <time value="33.4575" pos="990"/>
+          <time value="36.134" pos="996"/>
+          <time value="38.8106" pos="1002"/>
+          <time value="41.4872" pos="1008"/>
+          <time value="44.1638" pos="1014"/>
+          <time value="46.8404" pos="1020"/>
+          <time value="49.517" pos="1026"/>
+          <time value="52.1936" pos="1032"/>
+          <time value="54.8702" pos="1038"/>
+          <time value="57.5468" pos="1044"/>
+          <time value="60.2234" pos="1050"/>
+          <time value="62.9" pos="1056"/>
+          <time value="62.7" pos="1152"/>
+          <time value="62.7" pos="1158"/>
+          <time value="60.4482" pos="1164"/>
+          <time value="58.1964" pos="1170"/>
+          <time value="55.9446" pos="1176"/>
+          <time value="53.6929" pos="1182"/>
+          <time value="51.4411" pos="1188"/>
+          <time value="49.1893" pos="1194"/>
+          <time value="46.9375" pos="1200"/>
+          <time value="44.6857" pos="1206"/>
+          <time value="42.4339" pos="1212"/>
+          <time value="40.1821" pos="1218"/>
+          <time value="37.9304" pos="1224"/>
+          <time value="35.6786" pos="1230"/>
+          <time value="33.4268" pos="1236"/>
+          <time value="31.175" pos="1242"/>
+          <time value="28.9232" pos="1248"/>
+          <time value="26.6714" pos="1254"/>
+          <time value="24.4196" pos="1260"/>
+          <time value="22.1679" pos="1266"/>
+          <time value="19.9161" pos="1272"/>
+          <time value="17.6643" pos="1278"/>
+          <time value="15.4125" pos="1284"/>
+          <time value="13.1607" pos="1290"/>
+          <time value="10.9089" pos="1296"/>
+          <time value="8.65714" pos="1302"/>
+          <time value="6.40536" pos="1308"/>
+          <time value="4.15357" pos="1314"/>
+          <time value="1.90179" pos="1320"/>
+          <time value="-0.35" pos="1326"/>
+          <time value="-2.60179" pos="1332"/>
+          <time value="-4.85357" pos="1338"/>
+          <time value="-7.10536" pos="1344"/>
+          <time value="-9.35714" pos="1350"/>
+          <time value="-11.6089" pos="1356"/>
+          <time value="-13.8607" pos="1362"/>
+          <time value="-16.1125" pos="1368"/>
+          <time value="-18.3643" pos="1374"/>
+          <time value="-20.6161" pos="1380"/>
+          <time value="-22.8679" pos="1386"/>
+          <time value="-25.1196" pos="1392"/>
+          <time value="-27.3714" pos="1398"/>
+          <time value="-29.6232" pos="1404"/>
+          <time value="-31.875" pos="1410"/>
+          <time value="-34.1268" pos="1416"/>
+          <time value="-36.3786" pos="1422"/>
+          <time value="-38.6304" pos="1428"/>
+          <time value="-40.8821" pos="1434"/>
+          <time value="-43.1339" pos="1440"/>
+          <time value="-45.3857" pos="1446"/>
+          <time value="-47.6375" pos="1452"/>
+          <time value="-49.8893" pos="1458"/>
+          <time value="-52.1411" pos="1464"/>
+          <time value="-54.3929" pos="1470"/>
+          <time value="-56.6446" pos="1476"/>
+          <time value="-58.8964" pos="1482"/>
+          <time value="-61.1482" pos="1488"/>
           <object id="42804"/>
         </automationpattern>
-        <automationpattern name="Bells>Panning" pos="3264" len="1536">
-          <time value="-74.2" pos="0"/>
-          <time value="-49.4" pos="48"/>
-          <time value="-24.5" pos="96"/>
-          <time value="0.8" pos="144"/>
-          <time value="0.8" pos="156"/>
-          <time value="7.74286" pos="168"/>
-          <time value="14.6857" pos="180"/>
-          <time value="21.6286" pos="192"/>
-          <time value="28.5714" pos="204"/>
-          <time value="35.5143" pos="216"/>
-          <time value="42.4571" pos="228"/>
-          <time value="49.4" pos="240"/>
-          <time value="76.2" pos="384"/>
-          <time value="49.9" pos="432"/>
-          <time value="25.1" pos="480"/>
-          <time value="0.3" pos="528"/>
-          <time value="0.3" pos="540"/>
-          <time value="-6.87143" pos="552"/>
-          <time value="-14.0429" pos="564"/>
-          <time value="-21.2143" pos="576"/>
-          <time value="-28.3857" pos="588"/>
-          <time value="-35.5571" pos="600"/>
-          <time value="-42.7286" pos="612"/>
-          <time value="-49.9" pos="624"/>
-          <time value="-74.7" pos="756"/>
-          <time value="-74.7" pos="768"/>
-          <time value="-75.2" pos="792"/>
-          <time value="-75.2" pos="804"/>
-          <time value="-50.9" pos="816"/>
-          <time value="-25.1" pos="864"/>
-          <time value="0.8" pos="912"/>
-          <time value="0.8" pos="924"/>
-          <time value="7.65714" pos="936"/>
-          <time value="14.5143" pos="948"/>
-          <time value="21.3714" pos="960"/>
-          <time value="28.2286" pos="972"/>
-          <time value="35.0857" pos="984"/>
-          <time value="41.9429" pos="996"/>
-          <time value="48.8" pos="1008"/>
-          <time value="74.7" pos="1152"/>
-          <time value="50.9" pos="1200"/>
-          <time value="25.1" pos="1248"/>
-          <time value="1.8" pos="1296"/>
-          <time value="1.8" pos="1308"/>
-          <time value="-4.7875" pos="1320"/>
-          <time value="-11.375" pos="1332"/>
-          <time value="-17.9625" pos="1344"/>
-          <time value="-24.55" pos="1356"/>
-          <time value="-31.1375" pos="1368"/>
-          <time value="-37.725" pos="1380"/>
-          <time value="-50.9" pos="1392"/>
+        <automationpattern name="Bells>Panning" pos="6336" len="1536">
+          <time value="-62.2" pos="0"/>
+          <time value="-62.2" pos="6"/>
+          <time value="-59.0725" pos="12"/>
+          <time value="-55.945" pos="18"/>
+          <time value="-52.8175" pos="24"/>
+          <time value="-49.69" pos="30"/>
+          <time value="-46.5625" pos="36"/>
+          <time value="-43.435" pos="42"/>
+          <time value="-40.3075" pos="48"/>
+          <time value="-37.18" pos="54"/>
+          <time value="-34.0525" pos="60"/>
+          <time value="-30.925" pos="66"/>
+          <time value="-27.7975" pos="72"/>
+          <time value="-24.67" pos="78"/>
+          <time value="-21.5425" pos="84"/>
+          <time value="-18.415" pos="90"/>
+          <time value="-15.2875" pos="96"/>
+          <time value="-12.16" pos="102"/>
+          <time value="-9.0325" pos="108"/>
+          <time value="-5.905" pos="114"/>
+          <time value="-2.7775" pos="120"/>
+          <time value="0.35" pos="126"/>
+          <time value="3.4775" pos="132"/>
+          <time value="6.605" pos="138"/>
+          <time value="9.7325" pos="144"/>
+          <time value="12.86" pos="150"/>
+          <time value="15.9875" pos="156"/>
+          <time value="19.115" pos="162"/>
+          <time value="22.2425" pos="168"/>
+          <time value="25.37" pos="174"/>
+          <time value="28.4975" pos="180"/>
+          <time value="31.625" pos="186"/>
+          <time value="34.7525" pos="192"/>
+          <time value="37.88" pos="198"/>
+          <time value="41.0075" pos="204"/>
+          <time value="44.135" pos="210"/>
+          <time value="47.2625" pos="216"/>
+          <time value="50.39" pos="222"/>
+          <time value="53.5175" pos="228"/>
+          <time value="56.645" pos="234"/>
+          <time value="62.9" pos="240"/>
+          <time value="63.2" pos="384"/>
+          <time value="63.2" pos="390"/>
+          <time value="60.5771" pos="396"/>
+          <time value="57.9542" pos="402"/>
+          <time value="55.3312" pos="408"/>
+          <time value="52.7083" pos="414"/>
+          <time value="50.0854" pos="420"/>
+          <time value="47.4625" pos="426"/>
+          <time value="44.8396" pos="432"/>
+          <time value="42.2167" pos="438"/>
+          <time value="39.5938" pos="444"/>
+          <time value="36.9708" pos="450"/>
+          <time value="34.3479" pos="456"/>
+          <time value="31.725" pos="462"/>
+          <time value="29.1021" pos="468"/>
+          <time value="26.4792" pos="474"/>
+          <time value="23.8563" pos="480"/>
+          <time value="21.2333" pos="486"/>
+          <time value="18.6104" pos="492"/>
+          <time value="15.9875" pos="498"/>
+          <time value="13.3646" pos="504"/>
+          <time value="10.7417" pos="510"/>
+          <time value="8.11875" pos="516"/>
+          <time value="5.49583" pos="522"/>
+          <time value="2.87292" pos="528"/>
+          <time value="0.25" pos="534"/>
+          <time value="-2.37292" pos="540"/>
+          <time value="-4.99583" pos="546"/>
+          <time value="-7.61875" pos="552"/>
+          <time value="-10.2417" pos="558"/>
+          <time value="-12.8646" pos="564"/>
+          <time value="-15.4875" pos="570"/>
+          <time value="-18.1104" pos="576"/>
+          <time value="-20.7333" pos="582"/>
+          <time value="-23.3563" pos="588"/>
+          <time value="-25.9792" pos="594"/>
+          <time value="-28.6021" pos="600"/>
+          <time value="-31.225" pos="606"/>
+          <time value="-33.8479" pos="612"/>
+          <time value="-36.4708" pos="618"/>
+          <time value="-39.0938" pos="624"/>
+          <time value="-41.7167" pos="630"/>
+          <time value="-44.3396" pos="636"/>
+          <time value="-46.9625" pos="642"/>
+          <time value="-49.5854" pos="648"/>
+          <time value="-52.2083" pos="654"/>
+          <time value="-54.8312" pos="660"/>
+          <time value="-57.4542" pos="666"/>
+          <time value="-62.7" pos="672"/>
+          <time value="-62.9" pos="768"/>
+          <time value="-62.9" pos="774"/>
+          <time value="-60.2234" pos="780"/>
+          <time value="-57.5468" pos="786"/>
+          <time value="-54.8702" pos="792"/>
+          <time value="-52.1936" pos="798"/>
+          <time value="-49.517" pos="804"/>
+          <time value="-46.8404" pos="810"/>
+          <time value="-44.1638" pos="816"/>
+          <time value="-41.4872" pos="822"/>
+          <time value="-38.8106" pos="828"/>
+          <time value="-36.134" pos="834"/>
+          <time value="-33.4574" pos="840"/>
+          <time value="-30.7808" pos="846"/>
+          <time value="-28.1043" pos="852"/>
+          <time value="-25.4277" pos="858"/>
+          <time value="-22.7511" pos="864"/>
+          <time value="-20.0745" pos="870"/>
+          <time value="-17.3979" pos="876"/>
+          <time value="-14.7213" pos="882"/>
+          <time value="-12.0447" pos="888"/>
+          <time value="-9.36808" pos="894"/>
+          <time value="-6.69149" pos="900"/>
+          <time value="-4.01489" pos="906"/>
+          <time value="-1.3383" pos="912"/>
+          <time value="1.3383" pos="918"/>
+          <time value="4.0149" pos="924"/>
+          <time value="6.69149" pos="930"/>
+          <time value="9.36809" pos="936"/>
+          <time value="12.0447" pos="942"/>
+          <time value="14.7213" pos="948"/>
+          <time value="17.3979" pos="954"/>
+          <time value="20.0745" pos="960"/>
+          <time value="22.7511" pos="966"/>
+          <time value="25.4277" pos="972"/>
+          <time value="28.1043" pos="978"/>
+          <time value="30.7809" pos="984"/>
+          <time value="33.4575" pos="990"/>
+          <time value="36.134" pos="996"/>
+          <time value="38.8106" pos="1002"/>
+          <time value="41.4872" pos="1008"/>
+          <time value="44.1638" pos="1014"/>
+          <time value="46.8404" pos="1020"/>
+          <time value="49.517" pos="1026"/>
+          <time value="52.1936" pos="1032"/>
+          <time value="54.8702" pos="1038"/>
+          <time value="57.5468" pos="1044"/>
+          <time value="60.2234" pos="1050"/>
+          <time value="62.9" pos="1056"/>
+          <time value="62.7" pos="1152"/>
+          <time value="62.7" pos="1158"/>
+          <time value="60.4482" pos="1164"/>
+          <time value="58.1964" pos="1170"/>
+          <time value="55.9446" pos="1176"/>
+          <time value="53.6929" pos="1182"/>
+          <time value="51.4411" pos="1188"/>
+          <time value="49.1893" pos="1194"/>
+          <time value="46.9375" pos="1200"/>
+          <time value="44.6857" pos="1206"/>
+          <time value="42.4339" pos="1212"/>
+          <time value="40.1821" pos="1218"/>
+          <time value="37.9304" pos="1224"/>
+          <time value="35.6786" pos="1230"/>
+          <time value="33.4268" pos="1236"/>
+          <time value="31.175" pos="1242"/>
+          <time value="28.9232" pos="1248"/>
+          <time value="26.6714" pos="1254"/>
+          <time value="24.4196" pos="1260"/>
+          <time value="22.1679" pos="1266"/>
+          <time value="19.9161" pos="1272"/>
+          <time value="17.6643" pos="1278"/>
+          <time value="15.4125" pos="1284"/>
+          <time value="13.1607" pos="1290"/>
+          <time value="10.9089" pos="1296"/>
+          <time value="8.65714" pos="1302"/>
+          <time value="6.40536" pos="1308"/>
+          <time value="4.15357" pos="1314"/>
+          <time value="1.90179" pos="1320"/>
+          <time value="-0.35" pos="1326"/>
+          <time value="-2.60179" pos="1332"/>
+          <time value="-4.85357" pos="1338"/>
+          <time value="-7.10536" pos="1344"/>
+          <time value="-9.35714" pos="1350"/>
+          <time value="-11.6089" pos="1356"/>
+          <time value="-13.8607" pos="1362"/>
+          <time value="-16.1125" pos="1368"/>
+          <time value="-18.3643" pos="1374"/>
+          <time value="-20.6161" pos="1380"/>
+          <time value="-22.8679" pos="1386"/>
+          <time value="-25.1196" pos="1392"/>
+          <time value="-27.3714" pos="1398"/>
+          <time value="-29.6232" pos="1404"/>
+          <time value="-31.875" pos="1410"/>
+          <time value="-34.1268" pos="1416"/>
+          <time value="-36.3786" pos="1422"/>
+          <time value="-38.6304" pos="1428"/>
+          <time value="-40.8821" pos="1434"/>
+          <time value="-43.1339" pos="1440"/>
+          <time value="-45.3857" pos="1446"/>
+          <time value="-47.6375" pos="1452"/>
+          <time value="-49.8893" pos="1458"/>
+          <time value="-52.1411" pos="1464"/>
+          <time value="-54.3929" pos="1470"/>
+          <time value="-56.6446" pos="1476"/>
+          <time value="-58.8964" pos="1482"/>
+          <time value="-61.1482" pos="1488"/>
           <object id="42804"/>
         </automationpattern>
-        <automationpattern name="Bells>Panning" pos="4800" len="1536">
-          <time value="-74.2" pos="0"/>
-          <time value="-49.4" pos="48"/>
-          <time value="-24.5" pos="96"/>
-          <time value="0.8" pos="144"/>
-          <time value="0.8" pos="156"/>
-          <time value="7.74286" pos="168"/>
-          <time value="14.6857" pos="180"/>
-          <time value="21.6286" pos="192"/>
-          <time value="28.5714" pos="204"/>
-          <time value="35.5143" pos="216"/>
-          <time value="42.4571" pos="228"/>
-          <time value="49.4" pos="240"/>
-          <time value="76.2" pos="384"/>
-          <time value="49.9" pos="432"/>
-          <time value="25.1" pos="480"/>
-          <time value="0.3" pos="528"/>
-          <time value="0.3" pos="540"/>
-          <time value="-6.87143" pos="552"/>
-          <time value="-14.0429" pos="564"/>
-          <time value="-21.2143" pos="576"/>
-          <time value="-28.3857" pos="588"/>
-          <time value="-35.5571" pos="600"/>
-          <time value="-42.7286" pos="612"/>
-          <time value="-49.9" pos="624"/>
-          <time value="-74.7" pos="756"/>
-          <time value="-74.7" pos="768"/>
-          <time value="-75.2" pos="792"/>
-          <time value="-75.2" pos="804"/>
-          <time value="-50.9" pos="816"/>
-          <time value="-25.1" pos="864"/>
-          <time value="0.8" pos="912"/>
-          <time value="0.8" pos="924"/>
-          <time value="7.65714" pos="936"/>
-          <time value="14.5143" pos="948"/>
-          <time value="21.3714" pos="960"/>
-          <time value="28.2286" pos="972"/>
-          <time value="35.0857" pos="984"/>
-          <time value="41.9429" pos="996"/>
-          <time value="48.8" pos="1008"/>
-          <time value="74.7" pos="1152"/>
-          <time value="50.9" pos="1200"/>
-          <time value="25.1" pos="1248"/>
-          <time value="1.8" pos="1296"/>
-          <time value="1.8" pos="1308"/>
-          <time value="-4.7875" pos="1320"/>
-          <time value="-11.375" pos="1332"/>
-          <time value="-17.9625" pos="1344"/>
-          <time value="-24.55" pos="1356"/>
-          <time value="-31.1375" pos="1368"/>
-          <time value="-37.725" pos="1380"/>
-          <time value="-50.9" pos="1392"/>
+        <automationpattern name="Bells>Panning" pos="7872" len="1536">
+          <time value="-62.2" pos="0"/>
+          <time value="-62.2" pos="6"/>
+          <time value="-59.0725" pos="12"/>
+          <time value="-55.945" pos="18"/>
+          <time value="-52.8175" pos="24"/>
+          <time value="-49.69" pos="30"/>
+          <time value="-46.5625" pos="36"/>
+          <time value="-43.435" pos="42"/>
+          <time value="-40.3075" pos="48"/>
+          <time value="-37.18" pos="54"/>
+          <time value="-34.0525" pos="60"/>
+          <time value="-30.925" pos="66"/>
+          <time value="-27.7975" pos="72"/>
+          <time value="-24.67" pos="78"/>
+          <time value="-21.5425" pos="84"/>
+          <time value="-18.415" pos="90"/>
+          <time value="-15.2875" pos="96"/>
+          <time value="-12.16" pos="102"/>
+          <time value="-9.0325" pos="108"/>
+          <time value="-5.905" pos="114"/>
+          <time value="-2.7775" pos="120"/>
+          <time value="0.35" pos="126"/>
+          <time value="3.4775" pos="132"/>
+          <time value="6.605" pos="138"/>
+          <time value="9.7325" pos="144"/>
+          <time value="12.86" pos="150"/>
+          <time value="15.9875" pos="156"/>
+          <time value="19.115" pos="162"/>
+          <time value="22.2425" pos="168"/>
+          <time value="25.37" pos="174"/>
+          <time value="28.4975" pos="180"/>
+          <time value="31.625" pos="186"/>
+          <time value="34.7525" pos="192"/>
+          <time value="37.88" pos="198"/>
+          <time value="41.0075" pos="204"/>
+          <time value="44.135" pos="210"/>
+          <time value="47.2625" pos="216"/>
+          <time value="50.39" pos="222"/>
+          <time value="53.5175" pos="228"/>
+          <time value="56.645" pos="234"/>
+          <time value="62.9" pos="240"/>
+          <time value="63.2" pos="384"/>
+          <time value="63.2" pos="390"/>
+          <time value="60.5771" pos="396"/>
+          <time value="57.9542" pos="402"/>
+          <time value="55.3312" pos="408"/>
+          <time value="52.7083" pos="414"/>
+          <time value="50.0854" pos="420"/>
+          <time value="47.4625" pos="426"/>
+          <time value="44.8396" pos="432"/>
+          <time value="42.2167" pos="438"/>
+          <time value="39.5938" pos="444"/>
+          <time value="36.9708" pos="450"/>
+          <time value="34.3479" pos="456"/>
+          <time value="31.725" pos="462"/>
+          <time value="29.1021" pos="468"/>
+          <time value="26.4792" pos="474"/>
+          <time value="23.8563" pos="480"/>
+          <time value="21.2333" pos="486"/>
+          <time value="18.6104" pos="492"/>
+          <time value="15.9875" pos="498"/>
+          <time value="13.3646" pos="504"/>
+          <time value="10.7417" pos="510"/>
+          <time value="8.11875" pos="516"/>
+          <time value="5.49583" pos="522"/>
+          <time value="2.87292" pos="528"/>
+          <time value="0.25" pos="534"/>
+          <time value="-2.37292" pos="540"/>
+          <time value="-4.99583" pos="546"/>
+          <time value="-7.61875" pos="552"/>
+          <time value="-10.2417" pos="558"/>
+          <time value="-12.8646" pos="564"/>
+          <time value="-15.4875" pos="570"/>
+          <time value="-18.1104" pos="576"/>
+          <time value="-20.7333" pos="582"/>
+          <time value="-23.3563" pos="588"/>
+          <time value="-25.9792" pos="594"/>
+          <time value="-28.6021" pos="600"/>
+          <time value="-31.225" pos="606"/>
+          <time value="-33.8479" pos="612"/>
+          <time value="-36.4708" pos="618"/>
+          <time value="-39.0938" pos="624"/>
+          <time value="-41.7167" pos="630"/>
+          <time value="-44.3396" pos="636"/>
+          <time value="-46.9625" pos="642"/>
+          <time value="-49.5854" pos="648"/>
+          <time value="-52.2083" pos="654"/>
+          <time value="-54.8312" pos="660"/>
+          <time value="-57.4542" pos="666"/>
+          <time value="-62.7" pos="672"/>
+          <time value="-62.9" pos="768"/>
+          <time value="-62.9" pos="774"/>
+          <time value="-60.2234" pos="780"/>
+          <time value="-57.5468" pos="786"/>
+          <time value="-54.8702" pos="792"/>
+          <time value="-52.1936" pos="798"/>
+          <time value="-49.517" pos="804"/>
+          <time value="-46.8404" pos="810"/>
+          <time value="-44.1638" pos="816"/>
+          <time value="-41.4872" pos="822"/>
+          <time value="-38.8106" pos="828"/>
+          <time value="-36.134" pos="834"/>
+          <time value="-33.4574" pos="840"/>
+          <time value="-30.7808" pos="846"/>
+          <time value="-28.1043" pos="852"/>
+          <time value="-25.4277" pos="858"/>
+          <time value="-22.7511" pos="864"/>
+          <time value="-20.0745" pos="870"/>
+          <time value="-17.3979" pos="876"/>
+          <time value="-14.7213" pos="882"/>
+          <time value="-12.0447" pos="888"/>
+          <time value="-9.36808" pos="894"/>
+          <time value="-6.69149" pos="900"/>
+          <time value="-4.01489" pos="906"/>
+          <time value="-1.3383" pos="912"/>
+          <time value="1.3383" pos="918"/>
+          <time value="4.0149" pos="924"/>
+          <time value="6.69149" pos="930"/>
+          <time value="9.36809" pos="936"/>
+          <time value="12.0447" pos="942"/>
+          <time value="14.7213" pos="948"/>
+          <time value="17.3979" pos="954"/>
+          <time value="20.0745" pos="960"/>
+          <time value="22.7511" pos="966"/>
+          <time value="25.4277" pos="972"/>
+          <time value="28.1043" pos="978"/>
+          <time value="30.7809" pos="984"/>
+          <time value="33.4575" pos="990"/>
+          <time value="36.134" pos="996"/>
+          <time value="38.8106" pos="1002"/>
+          <time value="41.4872" pos="1008"/>
+          <time value="44.1638" pos="1014"/>
+          <time value="46.8404" pos="1020"/>
+          <time value="49.517" pos="1026"/>
+          <time value="52.1936" pos="1032"/>
+          <time value="54.8702" pos="1038"/>
+          <time value="57.5468" pos="1044"/>
+          <time value="60.2234" pos="1050"/>
+          <time value="62.9" pos="1056"/>
+          <time value="62.7" pos="1152"/>
+          <time value="62.7" pos="1158"/>
+          <time value="60.4482" pos="1164"/>
+          <time value="58.1964" pos="1170"/>
+          <time value="55.9446" pos="1176"/>
+          <time value="53.6929" pos="1182"/>
+          <time value="51.4411" pos="1188"/>
+          <time value="49.1893" pos="1194"/>
+          <time value="46.9375" pos="1200"/>
+          <time value="44.6857" pos="1206"/>
+          <time value="42.4339" pos="1212"/>
+          <time value="40.1821" pos="1218"/>
+          <time value="37.9304" pos="1224"/>
+          <time value="35.6786" pos="1230"/>
+          <time value="33.4268" pos="1236"/>
+          <time value="31.175" pos="1242"/>
+          <time value="28.9232" pos="1248"/>
+          <time value="26.6714" pos="1254"/>
+          <time value="24.4196" pos="1260"/>
+          <time value="22.1679" pos="1266"/>
+          <time value="19.9161" pos="1272"/>
+          <time value="17.6643" pos="1278"/>
+          <time value="15.4125" pos="1284"/>
+          <time value="13.1607" pos="1290"/>
+          <time value="10.9089" pos="1296"/>
+          <time value="8.65714" pos="1302"/>
+          <time value="6.40536" pos="1308"/>
+          <time value="4.15357" pos="1314"/>
+          <time value="1.90179" pos="1320"/>
+          <time value="-0.35" pos="1326"/>
+          <time value="-2.60179" pos="1332"/>
+          <time value="-4.85357" pos="1338"/>
+          <time value="-7.10536" pos="1344"/>
+          <time value="-9.35714" pos="1350"/>
+          <time value="-11.6089" pos="1356"/>
+          <time value="-13.8607" pos="1362"/>
+          <time value="-16.1125" pos="1368"/>
+          <time value="-18.3643" pos="1374"/>
+          <time value="-20.6161" pos="1380"/>
+          <time value="-22.8679" pos="1386"/>
+          <time value="-25.1196" pos="1392"/>
+          <time value="-27.3714" pos="1398"/>
+          <time value="-29.6232" pos="1404"/>
+          <time value="-31.875" pos="1410"/>
+          <time value="-34.1268" pos="1416"/>
+          <time value="-36.3786" pos="1422"/>
+          <time value="-38.6304" pos="1428"/>
+          <time value="-40.8821" pos="1434"/>
+          <time value="-43.1339" pos="1440"/>
+          <time value="-45.3857" pos="1446"/>
+          <time value="-47.6375" pos="1452"/>
+          <time value="-49.8893" pos="1458"/>
+          <time value="-52.1411" pos="1464"/>
+          <time value="-54.3929" pos="1470"/>
+          <time value="-56.6446" pos="1476"/>
+          <time value="-58.8964" pos="1482"/>
+          <time value="-61.1482" pos="1488"/>
           <object id="42804"/>
         </automationpattern>
       </track>
@@ -5252,6 +5840,164 @@
           <note pan="0" key="64" vol="100" pos="1236" len="12"/>
           <note pan="0" key="62" vol="100" pos="1248" len="336"/>
         </pattern>
+        <pattern steps="16" muted="0" type="1" name="Lead" pos="7680" len="1728" frozen="0">
+          <note pan="0" key="57" vol="100" pos="168" len="24"/>
+          <note pan="0" key="60" vol="100" pos="192" len="48"/>
+          <note pan="0" key="57" vol="100" pos="264" len="24"/>
+          <note pan="0" key="60" vol="100" pos="288" len="24"/>
+          <note pan="0" key="57" vol="100" pos="312" len="24"/>
+          <note pan="0" key="60" vol="100" pos="360" len="24"/>
+          <note pan="0" key="62" vol="100" pos="408" len="408"/>
+          <note pan="0" key="65" vol="100" pos="936" len="24"/>
+          <note pan="0" key="65" vol="100" pos="960" len="24"/>
+          <note pan="0" key="65" vol="100" pos="984" len="24"/>
+          <note pan="0" key="64" vol="100" pos="1008" len="24"/>
+          <note pan="0" key="60" vol="100" pos="1056" len="24"/>
+          <note pan="0" key="57" vol="100" pos="1080" len="24"/>
+          <note pan="0" key="64" vol="100" pos="1128" len="96"/>
+          <note pan="0" key="65" vol="100" pos="1224" len="12"/>
+          <note pan="0" key="64" vol="100" pos="1236" len="12"/>
+          <note pan="0" key="62" vol="100" pos="1248" len="336"/>
+        </pattern>
+      </track>
+      <track muted="0" type="5" name="Volume">
+        <automationtrack/>
+        <automationpattern name="Master" pos="8448" len="768">
+          <time value="0.99187" pos="0"/>
+          <time value="0.98374" pos="6"/>
+          <time value="0.97561" pos="12"/>
+          <time value="0.96748" pos="18"/>
+          <time value="0.95935" pos="24"/>
+          <time value="0.951219" pos="30"/>
+          <time value="0.943089" pos="36"/>
+          <time value="0.934959" pos="42"/>
+          <time value="0.926829" pos="48"/>
+          <time value="0.918699" pos="54"/>
+          <time value="0.910569" pos="60"/>
+          <time value="0.902439" pos="66"/>
+          <time value="0.894309" pos="72"/>
+          <time value="0.886179" pos="78"/>
+          <time value="0.878049" pos="84"/>
+          <time value="0.869919" pos="90"/>
+          <time value="0.861789" pos="96"/>
+          <time value="0.853658" pos="102"/>
+          <time value="0.845528" pos="108"/>
+          <time value="0.837398" pos="114"/>
+          <time value="0.829268" pos="120"/>
+          <time value="0.821138" pos="126"/>
+          <time value="0.813008" pos="132"/>
+          <time value="0.804878" pos="138"/>
+          <time value="0.796748" pos="144"/>
+          <time value="0.788618" pos="150"/>
+          <time value="0.780488" pos="156"/>
+          <time value="0.772358" pos="162"/>
+          <time value="0.764228" pos="168"/>
+          <time value="0.756098" pos="174"/>
+          <time value="0.747967" pos="180"/>
+          <time value="0.739837" pos="186"/>
+          <time value="0.731707" pos="192"/>
+          <time value="0.723577" pos="198"/>
+          <time value="0.715447" pos="204"/>
+          <time value="0.707317" pos="210"/>
+          <time value="0.699187" pos="216"/>
+          <time value="0.691057" pos="222"/>
+          <time value="0.682927" pos="228"/>
+          <time value="0.674797" pos="234"/>
+          <time value="0.666667" pos="240"/>
+          <time value="0.658537" pos="246"/>
+          <time value="0.650406" pos="252"/>
+          <time value="0.642276" pos="258"/>
+          <time value="0.634146" pos="264"/>
+          <time value="0.626016" pos="270"/>
+          <time value="0.617886" pos="276"/>
+          <time value="0.609756" pos="282"/>
+          <time value="0.601626" pos="288"/>
+          <time value="0.593496" pos="294"/>
+          <time value="0.585366" pos="300"/>
+          <time value="0.577236" pos="306"/>
+          <time value="0.569106" pos="312"/>
+          <time value="0.560976" pos="318"/>
+          <time value="0.552845" pos="324"/>
+          <time value="0.544715" pos="330"/>
+          <time value="0.536585" pos="336"/>
+          <time value="0.528455" pos="342"/>
+          <time value="0.520325" pos="348"/>
+          <time value="0.512195" pos="354"/>
+          <time value="0.504065" pos="360"/>
+          <time value="0.495935" pos="366"/>
+          <time value="0.487805" pos="372"/>
+          <time value="0.479675" pos="378"/>
+          <time value="0.471545" pos="384"/>
+          <time value="0.463415" pos="390"/>
+          <time value="0.455285" pos="396"/>
+          <time value="0.447154" pos="402"/>
+          <time value="0.439024" pos="408"/>
+          <time value="0.430894" pos="414"/>
+          <time value="0.422764" pos="420"/>
+          <time value="0.414634" pos="426"/>
+          <time value="0.406504" pos="432"/>
+          <time value="0.398374" pos="438"/>
+          <time value="0.390244" pos="444"/>
+          <time value="0.382114" pos="450"/>
+          <time value="0.373984" pos="456"/>
+          <time value="0.365854" pos="462"/>
+          <time value="0.357724" pos="468"/>
+          <time value="0.349593" pos="474"/>
+          <time value="0.341463" pos="480"/>
+          <time value="0.333333" pos="486"/>
+          <time value="0.325203" pos="492"/>
+          <time value="0.317073" pos="498"/>
+          <time value="0.308943" pos="504"/>
+          <time value="0.300813" pos="510"/>
+          <time value="0.292683" pos="516"/>
+          <time value="0.284553" pos="522"/>
+          <time value="0.276423" pos="528"/>
+          <time value="0.268293" pos="534"/>
+          <time value="0.260163" pos="540"/>
+          <time value="0.252033" pos="546"/>
+          <time value="0.243902" pos="552"/>
+          <time value="0.235772" pos="558"/>
+          <time value="0.227642" pos="564"/>
+          <time value="0.219512" pos="570"/>
+          <time value="0.211382" pos="576"/>
+          <time value="0.203252" pos="582"/>
+          <time value="0.195122" pos="588"/>
+          <time value="0.186992" pos="594"/>
+          <time value="0.178862" pos="600"/>
+          <time value="0.170732" pos="606"/>
+          <time value="0.162602" pos="612"/>
+          <time value="0.154472" pos="618"/>
+          <time value="0.146341" pos="624"/>
+          <time value="0.138211" pos="630"/>
+          <time value="0.130081" pos="636"/>
+          <time value="0.121951" pos="642"/>
+          <time value="0.113821" pos="648"/>
+          <time value="0.105691" pos="654"/>
+          <time value="0.097561" pos="660"/>
+          <time value="0.0894309" pos="666"/>
+          <time value="0.0813008" pos="672"/>
+          <time value="0.0731707" pos="678"/>
+          <time value="0.0650406" pos="684"/>
+          <time value="0.0569106" pos="690"/>
+          <time value="0.0487805" pos="696"/>
+          <time value="0.0406504" pos="702"/>
+          <time value="0.0325203" pos="708"/>
+          <time value="0.0243902" pos="714"/>
+          <time value="0.0162602" pos="720"/>
+          <time value="0.00813008" pos="726"/>
+          <time value="0" pos="732"/>
+          <time value="0" pos="738"/>
+          <object id="4692020"/>
+        </automationpattern>
+        <automationpattern name="Master" pos="9408" len="192">
+          <time value="1" pos="0"/>
+          <time value="1" pos="6"/>
+          <time value="1" pos="12"/>
+          <time value="1" pos="234"/>
+          <time value="1" pos="240"/>
+          <time value="1" pos="246"/>
+          <object id="4692020"/>
+        </automationpattern>
       </track>
     </trackcontainer>
     <track muted="0" type="6" name="Automation track">
@@ -5272,35 +6018,36 @@
         <time value="0" pos="0"/>
       </automationpattern>
     </track>
-    <fxmixer width="863" x="12" y="536" maximized="0" height="278" visible="1" minimized="0">
-      <fxchannel num="0" muted="0" volume="1" name="Master">
+    <fxmixer width="863" x="163" y="536" maximized="0" height="278" visible="1" minimized="0">
+      <fxchannel num="0" muted="0" name="Master">
+        <fxchain numofeffects="0" enabled="0"/>
+        <volume value="1" id="4692020"/>
+      </fxchannel>
+      <fxchannel num="1" muted="0" volume="0.78" name="Kick">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="1" muted="0" volume="1" name="Kick">
+      <fxchannel num="2" muted="0" volume="0.71" name="Snare">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="2" muted="0" volume="1" name="Snare">
+      <fxchannel num="3" muted="0" volume="0.21" name="Hat Closed">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="3" muted="0" volume="0.29" name="Hat Closed">
+      <fxchannel num="4" muted="0" volume="0.26" name="Hat Accent">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="4" muted="0" volume="0.31" name="Hat Accent">
+      <fxchannel num="5" muted="0" volume="0.9" name="Bass">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="5" muted="0" volume="1.14" name="Bass">
+      <fxchannel num="6" muted="0" volume="0.69" name="Chords">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="6" muted="0" volume="1" name="Chords">
-        <fxchain numofeffects="0" enabled="0"/>
-      </fxchannel>
-      <fxchannel num="7" muted="0" volume="1.36" name="Bells">
+      <fxchannel num="7" muted="0" volume="0.69" name="Bells">
         <fxchain numofeffects="0" enabled="1"/>
       </fxchannel>
-      <fxchannel num="8" muted="0" volume="1.71" name="Lead">
+      <fxchannel num="8" muted="0" volume="0.83" name="Lead">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
-      <fxchannel num="9" muted="0" volume="1" name="FX 9">
+      <fxchannel num="9" muted="0" volume="0.45" name="Clap">
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
       <fxchannel num="10" muted="0" volume="1" name="FX 10">
@@ -5470,14 +6217,14 @@
       </fxchannel>
     </fxmixer>
     <ControllerRackView width="258" x="881" y="310" maximized="0" height="172" visible="0" minimized="0"/>
-    <pianoroll width="1190" x="19" y="406" maximized="0" height="530" visible="0" minimized="0"/>
-    <automationeditor width="740" x="510" y="149" maximized="0" height="480" visible="1" minimized="0"/>
+    <pianoroll width="1190" x="19" y="406" maximized="0" height="530" visible="1" minimized="0"/>
+    <automationeditor width="1250" x="0" y="0" maximized="1" height="890" visible="0" minimized="0"/>
     <projectnotes width="400" x="700" y="10" maximized="0" height="300" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /><style type="text/css">
 p, li { white-space: pre-wrap; }
 </style></head><body style=" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;">
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#e0e0e0;">Put down your project notes here.</span></p></body></html>]]></projectnotes>
-    <timeline lp1pos="6144" lp0pos="0" lpstate="1"/>
+    <timeline lp1pos="9600" lp0pos="0" lpstate="1"/>
     <controllers/>
   </song>
 </multimedia-project>
