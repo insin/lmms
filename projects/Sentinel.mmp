@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project version="1.0" creator="LMMS" creatorversion="1.0.0" type="song">
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.0.3" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="150" masterpitch="0"/>
   <song>
-    <trackcontainer width="1519" x="93" y="230" maximized="0" height="593" visible="1" type="song" minimized="0">
+    <trackcontainer width="1519" x="93" y="230" maximized="0" height="593" visible="0" type="song" minimized="0">
       <track muted="0" type="1" name="Perc 1" solo="0">
         <bbtrack>
-          <trackcontainer width="819" x="-21" y="184" maximized="0" height="446" visible="0" type="bbtrackcontainer" minimized="0">
+          <trackcontainer width="819" x="0" y="184" maximized="0" height="446" visible="0" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" solo="0">
               <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
@@ -4724,7 +4724,7 @@
         <fxchain numofeffects="0" enabled="0"/>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView width="258" x="880" y="310" maximized="0" height="154" visible="1" minimized="0"/>
+    <ControllerRackView width="258" x="880" y="310" maximized="0" height="154" visible="0" minimized="0"/>
     <pianoroll width="1298" x="78" y="47" maximized="0" height="797" visible="0" minimized="0"/>
     <automationeditor width="860" x="5" y="5" maximized="0" height="480" visible="0" minimized="0"/>
     <projectnotes width="400" x="700" y="10" maximized="0" height="300" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
