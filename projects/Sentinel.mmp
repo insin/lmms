@@ -3,10 +3,10 @@
 <lmms-project version="1.0" creator="LMMS" creatorversion="1.0.0" type="song">
   <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="150" masterpitch="0"/>
   <song>
-    <trackcontainer width="1891" x="0" y="0" maximized="1" height="930" visible="1" type="song" minimized="0">
-      <track muted="0" type="1" name="1" solo="0">
+    <trackcontainer width="1519" x="93" y="230" maximized="0" height="593" visible="1" type="song" minimized="0">
+      <track muted="0" type="1" name="Perc 1" solo="0">
         <bbtrack>
-          <trackcontainer width="819" x="671" y="178" maximized="0" height="446" visible="0" type="bbtrackcontainer" minimized="0">
+          <trackcontainer width="819" x="-21" y="184" maximized="0" height="446" visible="0" type="bbtrackcontainer" minimized="0">
             <track muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" solo="0">
               <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
@@ -22,7 +22,13 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="0" len="384">
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="192" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="384" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="576" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="768" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="960" len="192"/>
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1152" len="384">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -32,7 +38,7 @@
                 <note pan="0" key="57" vol="100" pos="312" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="324" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="192" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1344" len="384">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -44,7 +50,7 @@
                 <note pan="0" key="57" vol="100" pos="348" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="360" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="384" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1536" len="384">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -55,7 +61,7 @@
                 <note pan="0" key="57" vol="100" pos="360" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="372" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="576" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1728" len="384">
                 <note pan="0" key="57" vol="100" pos="24" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="72" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -67,7 +73,7 @@
                 <note pan="0" key="57" vol="100" pos="360" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="372" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="768" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="1920" len="384">
                 <note pan="0" key="57" vol="100" pos="24" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="72" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="120" len="-192"/>
@@ -79,9 +85,12 @@
                 <note pan="0" key="57" vol="100" pos="360" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="372" len="-192"/>
               </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Bass-Drum.wav" pos="2112" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+              </pattern>
             </track>
             <track muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" solo="0">
-              <instrumenttrack pan="-9.4" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+              <instrumenttrack pan="-11.2" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
                 <instrument name="audiofileprocessor">
                   <audiofileprocessor reversed="0" looped="0" eframe="1" stutter="0" sframe="0" src="Yamaha RX15 Kit/Yamaha-RX15-Hi-Tune-Snare.wav" amp="100"/>
                 </instrument>
@@ -95,25 +104,31 @@
                 <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
                 <fxchain numofeffects="0" enabled="0"/>
               </instrumenttrack>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="0" len="384">
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="192" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="384" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="576" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="768" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="960" len="192"/>
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1152" len="384">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="240" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="336" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="192" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1344" len="384">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="240" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="336" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="384" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1536" len="384">
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="144" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="240" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="336" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="576" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1728" len="384">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
@@ -125,7 +140,7 @@
                 <note pan="0" key="57" vol="100" pos="336" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="348" len="-192"/>
               </pattern>
-              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="768" len="384">
+              <pattern steps="32" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="1920" len="384">
                 <note pan="0" key="57" vol="100" pos="0" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="48" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="96" len="-192"/>
@@ -139,9 +154,226 @@
                 <note pan="0" key="57" vol="100" pos="336" len="-192"/>
                 <note pan="0" key="57" vol="100" pos="348" len="-192"/>
               </pattern>
+              <pattern steps="16" muted="0" type="0" name="Yamaha-RX15-Hi-Tune-Snare.wav" pos="2112" len="192"/>
+            </track>
+            <track muted="0" type="0" name="hat_closer.wav" solo="0">
+              <instrumenttrack pan="-33.1" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" eframe="1" stutter="0" sframe="0" src="Deep House Drum Samples/hats/hat_closer.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="192" len="192">
+                <note pan="0" key="57" vol="70" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="70" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="65" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+                <note pan="0" key="57" vol="74" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+              </pattern>
+              <pattern steps="32" muted="0" type="0" name="hat_closer.wav" pos="384" len="384">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="192" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="216" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="240" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="264" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="276" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="288" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="312" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="336" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="360" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="372" len="-192"/>
+              </pattern>
+              <pattern steps="32" muted="0" type="0" name="hat_closer.wav" pos="576" len="384"/>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="768" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="12" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="60" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="108" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="156" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="960" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="12" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="60" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="108" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="156" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="1152" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="1344" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="1536" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="1728" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="1920" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_closer.wav" pos="2112" len="192"/>
+            </track>
+            <track muted="0" type="0" name="hat_deephouseopen.wav" solo="0">
+              <instrumenttrack pan="-26.6" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="73.6">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" eframe="1" stutter="0" sframe="0.0974196" src="Deep House Drum Samples/hats/hat_deephouseopen.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="192" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="384" len="192"/>
+              <pattern steps="32" muted="0" type="0" name="hat_deephouseopen.wav" pos="576" len="384">
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="216" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="264" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="276" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="312" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="768" len="192">
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="960" len="192">
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="1152" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="1344" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="1536" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="1728" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="1920" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="hat_deephouseopen.wav" pos="2112" len="192"/>
+            </track>
+            <track muted="0" type="0" name="cym_gatecrashed.wav" solo="0">
+              <instrumenttrack pan="46.9" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="76">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" eframe="1" stutter="0" sframe="0" src="Deep House Drum Samples/ride_cymbal/cym_gatecrashed.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="192" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="384" len="192"/>
+              <pattern steps="32" muted="0" type="0" name="cym_gatecrashed.wav" pos="576" len="384">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="192" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="288" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="768" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="960" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="1152" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="1344" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="1536" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="1728" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="1920" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="cym_gatecrashed.wav" pos="2112" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+              </pattern>
             </track>
           </trackcontainer>
         </bbtrack>
+        <bbtco muted="0" name="" pos="1536" color="4286625455" len="1536"/>
+        <bbtco muted="0" name="" pos="10752" color="4286625455" len="768"/>
+      </track>
+      <track muted="0" type="1" name="Perc 2" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="4608" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="4608" color="4286625455" len="768"/>
+        <bbtco muted="0" name="" pos="7680" color="4286625455" len="768"/>
+        <bbtco muted="0" name="" pos="11520" color="4286625455" len="768"/>
+      </track>
+      <track muted="0" type="1" name="Perc 3" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="3456" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="4224" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="6528" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="7296" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="9600" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="10368" color="4286625455" len="384"/>
+      </track>
+      <track muted="0" type="1" name="Perc 4" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="3072" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="3840" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="6144" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="6912" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="9216" color="4286625455" len="384"/>
+        <bbtco muted="0" name="" pos="9984" color="4286625455" len="384"/>
+      </track>
+      <track muted="0" type="1" name="Perc 5" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="12288" color="4286625455" len="768"/>
+        <bbtco muted="0" name="" pos="5376" color="4286625455" len="768"/>
+        <bbtco muted="0" name="" pos="8448" color="4286625455" len="768"/>
+      </track>
+      <track muted="0" type="1" name="Clone of Perc 5" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="13056" color="4286625455" len="768"/>
+      </track>
+      <track muted="0" type="1" name="1" solo="0">
+        <bbtrack/>
         <bbtco muted="0" name="" pos="4608" color="4286625455" len="384"/>
         <bbtco muted="0" name="" pos="5760" color="4286625455" len="384"/>
         <bbtco muted="0" name="" pos="7680" color="4286625455" len="384"/>
@@ -190,6 +422,10 @@
         <bbtco muted="0" name="" pos="6912" color="4286625455" len="384"/>
         <bbtco muted="0" name="" pos="9984" color="4286625455" len="384"/>
         <bbtco muted="0" name="" pos="3840" color="4286625455" len="384"/>
+      </track>
+      <track muted="0" type="1" name="Beat/Bassline 11" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" name="" pos="13824" color="4286625455" len="192"/>
       </track>
       <track muted="0" type="0" name="Bass" solo="0">
         <instrumenttrack pan="0" fxch="4" pitchrange="1" pitch="0" basenote="81" vol="65.4">
@@ -4071,8 +4307,8 @@
           <note pan="0" key="93" vol="100" pos="372" len="12"/>
         </pattern>
       </track>
-      <track width="262" x="0" y="463" maximized="0" muted="1" height="467" visible="1" type="0" minimized="0" name="Erazzor" tab="0" solo="0">
-        <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="9.1">
+      <track muted="1" type="0" name="Erazzor" solo="0">
+        <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="5.3">
           <instrument name="tripleoscillator">
             <tripleoscillator phoffset2="0" userwavefile0="" finer0="-2" userwavefile1="" finer1="2" userwavefile2="" finer2="0" coarse0="0" coarse1="0" coarse2="0" finel0="0" finel1="-2" modalgo1="1" modalgo2="0" finel2="-2" pan0="0" modalgo3="2" pan1="0" stphdetun0="0" pan2="0" stphdetun1="0" wavetype0="2" stphdetun2="0" wavetype1="2" wavetype2="1" vol0="33" vol1="33" phoffset0="0" phoffset1="0" vol2="33"/>
           </instrument>
